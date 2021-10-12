@@ -4,6 +4,7 @@ import re
 import os
 import torch
 from os.path import join
+from pathlib import Path
 import pickle as pkl
 from itertools import starmap
 
@@ -12,12 +13,18 @@ from pytorch_pretrained_bert.tokenization import BertTokenizer
 
 from utils import PAD, UNK, START, END
 from model.extract import Summarizer
-from model.rl import ActorCritic
+#from model.rl import ActorCritic
 from data.batcher import conver2id, pad_batch_tensorize
 from data.data import CnnDmDataset
 
 
-DATASET_DIR = './CNNDM'
+current_path = Path(os.getcwd())
+parent_path = current_path.parent.absolute()
+parent_path = parent_path.parent.absolute()
+#DATA_DIR = '../../../qmsum_data/CNNDM'
+DATASET_DIR = os.path.join(parent_path, "qmsum_data", "CNNDM","CNNDM")
+
+#DATASET_DIR = './CNNDM'
 
 class DecodeDataset(CnnDmDataset):
     """ get the article sentences only (for decoding use)"""
@@ -64,7 +71,7 @@ class Extractor(object):
             self._word2id = word2id
         else:
             self._tokenizer = BertTokenizer.from_pretrained(
-                '/path/to/uncased_L-24_H-1024_A-16/vocab.txt')
+                'model/bert-large-uncased/vocab.txt')
         self._emb_type = emb_type
         self._device = torch.device('cuda' if cuda else 'cpu')
         self._net = extractor.to(self._device)

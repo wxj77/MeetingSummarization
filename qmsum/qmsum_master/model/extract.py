@@ -252,7 +252,7 @@ class Summarizer(nn.Module):
         # BERT
         if emb_type == 'BERT':
             self._bert = BertModel.from_pretrained(
-                         '/path/to/uncased_L-24_H-1024_A-16')
+                         'bert-large-uncased')
             self._bert.eval()
             for p in self._bert.parameters():
                 p.requires_grad = False

@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 from os.path import join, exists
+from pathlib import Path
 import pickle as pkl
 import random #
 from time import time
@@ -22,6 +23,7 @@ from training import BasicPipeline, BasicTrainer
 from decoding import Extractor, DecodeDataset
 from decoding import sort_ckpt, get_n_ext
 from evaluate import eval_rouge
+from pathlib import Path
 
 from utils import PAD, UNK
 from utils import make_vocab, make_embedding
@@ -36,7 +38,11 @@ from data.batcher import BucketedGenerater
 
 BUCKET_SIZE = 6400
 
-DATA_DIR = './CNNDM'
+current_path = Path(os.getcwd())
+parent_path = current_path.parent.absolute()
+parent_path = parent_path.parent.absolute()
+#DATA_DIR = '../../../qmsum_data/CNNDM'
+DATA_DIR = os.path.join(parent_path, "qmsum_data", "CNNDM","CNNDM")
 
 class ExtractDataset(CnnDmDataset):
     """ article sentences -> extraction indices
@@ -118,6 +124,7 @@ def configure_net(encoder, decoder, emb_type, vocab_size, emb_dim,
     model_args['conv_hidden']     = conv_hidden
     model_args['encoder_hidden']  = encoder_hidden
     model_args['encoder_layer']   = encoder_layer
+    #model_args['max_epochs'] = 5
 
     model = Summarizer(**model_args)
     return model, model_args
@@ -135,6 +142,7 @@ def configure_training(decoder, opt, lr, clip_grad, lr_decay, batch_size):
     train_params['clip_grad_norm'] = clip_grad
     train_params['batch_size']     = batch_size
     train_params['lr_decay']       = lr_decay
+    train_params['max_epochs'] = 1
 
     ce = lambda logit, target: F.cross_entropy(logit, target, reduction='none')
     def criterion(logits, targets, sent_num, decoder):
@@ -144,7 +152,8 @@ def configure_training(decoder, opt, lr, clip_grad, lr_decay, batch_size):
 
 
 def train(args):
-
+    
+    #print(parent_path)
     assert args.encoder  in ['BiLSTM', 'DeepLSTM', 'Transformer']
     assert args.decoder  in ['SL', 'PN']
     assert args.emb_type in ['W2V', 'BERT']
@@ -165,7 +174,13 @@ def train(args):
     if args.emb_type == 'W2V':
         # NOTE: the pretrained embedding having the same dimension
         #       as args.emb_dim should already be trained
-        w2v_path='./CNNDM/word2vec/word2vec.128d.226k.bin'
+        current_path = Path(os.getcwd())
+        parent_path = current_path.parent.absolute()
+        parent_path = parent_path.parent.absolute()
+#DATA_DIR = '../../../qmsum_data/CNNDM'
+        #DATA_DIR = os.path.join(parent_path, "qmsum_data", "CNNDM","CNNDM")
+        w2v_path = os.path.join(parent_path, "qmsum_data", "CNNDM","CNNDM", "word2vec", "word2vec.128d.226k.bin")
+        #w2v_path='./CNNDM/word2vec/word2vec.128d.226k.bin'
         embedding, _ = make_embedding(
             {i: w for w, i in word2id.items()}, w2v_path)
         model.set_embedding(embedding)
@@ -200,7 +215,7 @@ def train(args):
                              train_batcher, val_batcher, args.batch, val_fn,
                              criterion, optimizer, grad_fn)
     trainer = BasicTrainer(pipeline, args.path,
-                           args.ckpt_freq, args.patience, scheduler)
+                           args.ckpt_freq, args.patience, args.max_num_training_steps, scheduler)
     
     # for name, para in net.named_parameters():
     #     if para.requires_grad:
@@ -332,6 +347,7 @@ if __name__ == '__main__':
                         help='run in debugging mode')
     parser.add_argument('--no-cuda', action='store_true',
                         help='disable GPU training')
+    parser.add_argument('--max_num_training_steps', type=int, action='store', default = 10000000, help="Maximum number of training steps")
     
     args = parser.parse_args()
     args.cuda = torch.cuda.is_available() and not args.no_cuda

@@ -10,8 +10,16 @@ from cytoolz import curry
 
 from pyrouge import Rouge155
 from pyrouge.utils import log
+from pathlib import Path
 
-_ROUGE_PATH = '/path/to/RELEASE-1.5.5'
+current_path = Path(os.getcwd())
+parent_path = current_path.parent.absolute()
+#parent_path = parent_path.parent.absolute()
+#DATA_DIR = '../../../qmsum_data/CNNDM'
+DATASET_DIR = os.path.join(parent_path, "qmsum_data", "CNNDM","CNNDM")
+_ROUGE_PATH = os.path.join(parent_path, "qmsum_master","ROUGE-1.5.5")
+
+#_ROUGE_PATH = 'venv/lib/python3.7/site-packages/rouge'
 
 def eval_rouge(dec_dir, ref_dir):
     """ evaluate by original Perl implementation"""

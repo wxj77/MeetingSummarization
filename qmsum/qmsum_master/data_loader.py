@@ -1,5 +1,7 @@
 import logging
 import os
+import requests
+import tempfile
 import zipfile
 from zipfile import ZipFile
 from urllib.request import urlopen
@@ -76,12 +78,12 @@ def main():
     if os.path.exists(path_to_whole_word_masking):
         output("File whole-word-masking.tar.gz already exists in Bert large uncased model. Skipping this step")
     else:
-        output("Downloading whole-word-masking.tar.gz for Bert large uncased. This can take some minutes.")
-        url_file = urlopen(url_to_whole_word_masking)
-        file_output = open(path_to_tf_model, "wb")
-        file_output.write(url_file.read())
-        file_output.close()
-        output("File whole-word-masking.tar.gz written into models/bert-large-uncased.")
+        output("Downloading whole-word-masking.tar.gz for Bert large uncased model")
+        r = requests.get(url_to_whole_word_masking, stream=True)
+        with open(path_to_whole_word_masking, 'wb') as f:
+            for chunk in r.raw.stream(1024, decode_content=False):
+                if chunk:
+                    f.write(chunk)
         
         
         
