@@ -1,4 +1,6 @@
+#FROM wxj77/lambda-stack:20.04
 FROM nvidia/cuda:10.0-devel-ubuntu18.04
+CMD nvidia-smi
 
 ##############################################################################
 # Versions
@@ -38,7 +40,7 @@ RUN add-apt-repository ppa:git-core/ppa -y && \
 ##############################################################################
 # Python and Pip
 ##############################################################################
-ENV DEBIAN_FRONTEND=noninteractive
+#ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get install -y python3 python3-dev && \
     rm -f /usr/bin/python && \
     ln -s /usr/bin/python3 /usr/bin/python && \
@@ -83,7 +85,7 @@ RUN cd ${STAGE_DIR} && \
     ./mlnxofedinstall --user-space-only --without-fw-update --all -q && \
     cd ${STAGE_DIR} && \
     rm -rf ${STAGE_DIR}/MLNX_OFED_LINUX-${MLNX_OFED_VERSION}-ubuntu18.04-x86_64*
-
+#small problem
 ##############################################################################
 # Install Open MPI
 ##############################################################################
@@ -114,6 +116,7 @@ RUN cat /etc/ssh/sshd_config > ${STAGE_DIR}/sshd_config && \
 ##############################################################################
 # Common Python Packages
 ##############################################################################
+RUN cd /root
 RUN pip install future typing
 RUN pip install numpy \
                 scipy \
@@ -130,14 +133,17 @@ RUN pip install numpy \
                 mpi4py \
                 sentencepiece \
                 sacremoses \
-                spacy \
+                spacy==2.2.0 \
                 nltk \
                 py-rouge \
                 seqeval
-RUN export LC_ALL=C.UTF-8 && pip install pyrouge
-RUN sudo ln -f -s  /usr/local/cuda-10.0/compat/libcuda.so.1 /usr/lib/x86_64-linux-gnu/libcuda.so.1
-RUN sudo ln -f -s  /usr/local/cuda-10.0/compat/libnvidia-fatbinaryloader.so.410.129 /usr/lib/x86_64-linux-gnu/libnvidia-fatbinaryloader.so.410.129
-RUN export LC_ALL=C.UTF-8 && python -m spacy download en
+ENV LC_ALL=C.UTF-8
+RUN pip install pyrouge
+#RUN export LC_ALL=C.UTF-8 && pip install pyrouge
+#RUN sudo ln -f -s  /usr/local/cuda-10.0/compat/libcuda.so.1 /usr/lib/x86_64-linux-gnu/libcuda.so.1
+#RUN sudo ln -f -s  /usr/local/cuda-10.0/compat/libnvidia-fatbinaryloader.so.410.129 /usr/lib/x86_64-linux-gnu/libnvidia-fatbinaryloader.so.410.129
+#RUN export LC_ALL=C.UTF-8 && python -m spacy download en
+RUN python -m spacy download en
 RUN python -m nltk.downloader punkt
 
 RUN pip install transformers==2.4.1
