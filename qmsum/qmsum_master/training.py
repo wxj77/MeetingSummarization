@@ -133,7 +133,7 @@ class BasicPipeline(object):
 
 class BasicTrainer(object):
     """ Basic trainer with minimal function and early stopping"""
-    def __init__(self, pipeline, save_dir, ckpt_freq, patience,
+    def __init__(self, pipeline, save_dir, ckpt_freq, patience, max_num_training_steps,
                  scheduler=None, val_mode='loss'):
         assert isinstance(pipeline, BasicPipeline)
         assert val_mode in ['loss', 'score']
@@ -146,6 +146,7 @@ class BasicTrainer(object):
         self._patience = patience
         self._sched = scheduler
         self._val_mode = val_mode
+        self._max_num_training_steps = max_num_training_steps
 
         self._step = 0
         self._running_loss = None
@@ -208,15 +209,19 @@ class BasicTrainer(object):
     def train(self):
         try:
             start = time()
+            number_training_steps = 0
             print('Start training')
+            print("Max number of training steps {}".format(self._max_num_training_steps))
             while True:
+                number_training_steps = number_training_steps + 1
+                #print("Number of training steps {}".format(number_training_steps))
                 log_dict = self._pipeline.train_step()
                 self._step += 1
                 self.log(log_dict)
 
                 if self._step % self._ckpt_freq == 0:
                     stop = self.checkpoint()
-                    if stop:
+                    if stop or self._step >= self._max_num_training_steps:
                         break
             print('Training finised in ', timedelta(seconds=time()-start))
         finally:

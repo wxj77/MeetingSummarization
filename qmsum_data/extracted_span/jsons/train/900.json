@@ -1,0 +1,4 @@
+{
+    "query": "<s> what did phd e say about the best result ?",
+    "answer": "phd e : and , um , the best result is when we apply this procedure on fft bins , uh , with a wiener filter . professor b : mm - hmm . phd e : and there is no noise addition after after that . so it 's good because it 's difficult when we have to add noise to to to find the right level . phd a : are you looking at one in in particular of these two ? phd e : yeah . so the sh it 's the sheet that gives fifty - f three point sixty - six . professor b : mm - hmm . phd e : um , the second sheet is abo uh , about the same . it 's the same , um , idea but it 's working on mel bands , and it 's a spectral subtraction instead of wiener filter , and there is also a noise addition after , uh , cleaning up the mel bins . mmm . well , the results are similar ."
+}

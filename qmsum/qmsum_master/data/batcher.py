@@ -5,12 +5,20 @@ from collections import defaultdict
 from toolz.sandbox import unzip
 from cytoolz import curry, concat, compose
 from cytoolz import curried
+import os
+from pathlib import Path
+from os.path import join, exists
 
 import torch
 import torch.multiprocessing as mp
 from pytorch_pretrained_bert.tokenization import BertTokenizer
+current_path = Path(os.getcwd())
+parent_path = current_path.parent.absolute()
+#DATA_DIR = '../../../qmsum_data/CNNDM'
+VOCAB_PATH = os.path.join(parent_path, "qmsum_master","model", "bert-large-uncased","vocab.txt")
+
 tokenizer = BertTokenizer.from_pretrained(
-    '/path/to/uncased_L-24_H-1024_A-16/vocab.txt')
+    VOCAB_PATH)
 MAX_ARTICLE_LEN = 512
 
 # Batching functions
