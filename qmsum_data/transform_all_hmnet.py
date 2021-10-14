@@ -103,21 +103,25 @@ def main():
     parser.add_argument('--max_files', type=int, action='store', default = 10000000, help="Maximum number of files to process")                    
     args = parser.parse_args()
     assert args.mode in ['train', 'val']
+    #print(args.include_queries)
+    #print(args.mode)
+    if args.include_queries == "True":
+        args.include_queries = True
     
     if args.mode == "train" and args.include_queries == False:
         input_dir = "data/ALL/train"
         output_dir = "data/ALL/train_hmnet"
     elif args.mode == "train" and args.include_queries == True:
-        raise NotImplementedError
-        #input_dir = "data/ALL/train"
-        #output_dir = "data/ALL/train_hmnet_with_queries"
+        #raise NotImplementedError
+        input_dir = "data/ALL/train"
+        output_dir = "data/ALL/train_hmnet_with_queries"
     elif args.mode == "val" and args.include_queries == False:
         input_dir = "data/ALL/val"
         output_dir = "data/ALL/val_hmnet"
     else:
-        raise NotImplementedError
-        #input_dir = "data/ALL/val"
-        #output_dir = "data/ALL/val_hmnet_with_queries"
+        #raise NotImplementedError
+        input_dir = "data/ALL/val"
+        output_dir = "data/ALL/val_hmnet_with_queries"
     
     for counter, file_name in enumerate(os.listdir(input_dir)):
         if counter > args.max_files:
@@ -134,8 +138,23 @@ def main():
         meeting_array = []
         json_object_output["meeting"] = meeting_array
         meeting_transcripts = file_content_json['meeting_transcripts']
+        if args.include_queries == True:
+            query_array = []
+            json_object_output["queries"] = query_array
+            for query in file_content_json["specific_query_list"]:
+                query_content = query["query"]
+                answer = query["answer"]
+                relevant_text_span = query["relevant_text_span"]
+                query_object_question = _parse_tags(nlp(query_content))
+                query_object_question["relevant_text_span"] = relevant_text_span
+                query_object = {}
+                query_object["query"] = query_object_question
+                answer_object = _parse_tags(nlp(answer))
+                query_object["answer"] = answer_object
+                query_array.append(query_object)
         for meeting_transcript in meeting_transcripts:
             meeting_json = {}
+            
             speaker_name = meeting_transcript["speaker"]
             #print(speaker_name)
             role = speaker_name.split(" ")[0]
