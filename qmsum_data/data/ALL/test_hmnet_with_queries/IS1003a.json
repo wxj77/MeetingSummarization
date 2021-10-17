@@ -1,0 +1,12029 @@
+{
+  "id": "IS1003a",
+  "meeting": [
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "So",
+          "we",
+          "can",
+          "start",
+          "?"
+        ],
+        "pos_id": [
+          31,
+          29,
+          21,
+          38,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Suppose",
+          "I",
+          "have",
+          "to",
+          "do",
+          "my",
+          "presentation",
+          ".",
+          "{",
+          "vocalsound",
+          "}",
+          "Eh",
+          "um",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          38,
+          29,
+          42,
+          36,
+          38,
+          30,
+          23,
+          6,
+          4,
+          23,
+          5,
+          37,
+          37,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Ah",
+          "okay",
+          ".",
+          "It",
+          "'s",
+          "Ada",
+          "Longmund",
+          "?"
+        ],
+        "pos_id": [
+          37,
+          37,
+          6,
+          29,
+          43,
+          24,
+          24,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          3,
+          21,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "So",
+          ",",
+          "I",
+          "'ll",
+          "present",
+          "myself",
+          ",",
+          "I",
+          "'m",
+          "Ada",
+          "Longmund",
+          ",",
+          "and",
+          "as",
+          "you",
+          "may",
+          "know",
+          "it",
+          ",",
+          "I",
+          "'m",
+          "the",
+          "pr",
+          "project",
+          "manager",
+          ".",
+          "So",
+          "um",
+          "we",
+          "will",
+          "have",
+          "to",
+          "um",
+          "speak",
+          "about",
+          "m",
+          "the",
+          "project",
+          ".",
+          "Our",
+          "project",
+          "project",
+          "is",
+          "to",
+          "create",
+          "um",
+          "a",
+          "new",
+          "remote",
+          "control",
+          "and",
+          "as",
+          "you",
+          "may",
+          "know",
+          "there",
+          "'s",
+          "lot",
+          "of",
+          "industrials",
+          "interesting",
+          "in",
+          "creating",
+          "a",
+          "remote",
+          "control",
+          ",",
+          "so",
+          "the",
+          "remote",
+          "control",
+          "has",
+          "to",
+          "be",
+          "original",
+          ",",
+          "trendy",
+          "and",
+          "um",
+          "user",
+          "-",
+          "friendly",
+          ".",
+          "Record",
+          ".",
+          "So",
+          "the",
+          "project",
+          "method",
+          "is",
+          "the",
+          "following",
+          ".",
+          "So",
+          "if",
+          "we",
+          "'re",
+          "um",
+          "the",
+          "functional",
+          "design",
+          ",",
+          "you",
+          "have",
+          "to",
+          "do",
+          "uh",
+          "any",
+          "individual",
+          "work",
+          "and",
+          "uh",
+          "also",
+          "work",
+          "with",
+          "uh",
+          "meetings",
+          "talking",
+          "with",
+          "each",
+          "other",
+          ".",
+          "Uh",
+          "it",
+          "will",
+          "be",
+          "the",
+          "same",
+          "for",
+          "the",
+          "conceptual",
+          "design",
+          "and",
+          "also",
+          "the",
+          "same",
+          "for",
+          "the",
+          "detailed",
+          "design",
+          ".",
+          "Uh",
+          "."
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          31,
+          3,
+          29,
+          21,
+          38,
+          29,
+          3,
+          29,
+          42,
+          24,
+          24,
+          3,
+          10,
+          16,
+          29,
+          21,
+          38,
+          29,
+          3,
+          29,
+          42,
+          12,
+          24,
+          23,
+          23,
+          6,
+          31,
+          37,
+          29,
+          21,
+          38,
+          36,
+          37,
+          38,
+          16,
+          24,
+          12,
+          23,
+          6,
+          30,
+          23,
+          23,
+          43,
+          36,
+          38,
+          37,
+          12,
+          17,
+          17,
+          23,
+          10,
+          16,
+          29,
+          21,
+          38,
+          13,
+          43,
+          23,
+          16,
+          26,
+          17,
+          16,
+          40,
+          12,
+          17,
+          23,
+          3,
+          31,
+          12,
+          17,
+          23,
+          43,
+          36,
+          38,
+          17,
+          3,
+          17,
+          10,
+          37,
+          23,
+          15,
+          17,
+          6,
+          37,
+          6,
+          31,
+          12,
+          23,
+          23,
+          43,
+          12,
+          40,
+          6,
+          31,
+          16,
+          29,
+          42,
+          37,
+          12,
+          17,
+          23,
+          3,
+          29,
+          42,
+          36,
+          38,
+          37,
+          12,
+          17,
+          23,
+          10,
+          37,
+          31,
+          42,
+          16,
+          37,
+          26,
+          40,
+          16,
+          12,
+          17,
+          6,
+          37,
+          29,
+          21,
+          38,
+          12,
+          17,
+          16,
+          12,
+          17,
+          23,
+          10,
+          31,
+          12,
+          17,
+          16,
+          12,
+          17,
+          23,
+          6,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          3,
+          21,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "The",
+          "tool",
+          "training",
+          "is",
+          "to",
+          "try",
+          "out",
+          "the",
+          "white",
+          "board",
+          ",",
+          "so",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          12,
+          23,
+          23,
+          43,
+          36,
+          38,
+          34,
+          12,
+          24,
+          24,
+          3,
+          31,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          1,
+          19,
+          19,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Maybe",
+          "someone",
+          "ha",
+          "we",
+          "have",
+          "to",
+          "{",
+          "gap",
+          "}",
+          "this",
+          "whiteboard",
+          ","
+        ],
+        "pos_id": [
+          31,
+          23,
+          37,
+          29,
+          42,
+          36,
+          4,
+          23,
+          5,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Mm",
+          "-",
+          "hmm",
+          "."
+        ],
+        "pos_id": [
+          24,
+          15,
+          23,
+          6
+        ],
+        "ent_id": [
+          3,
+          21,
+          21,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "yeah",
+          "?"
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Maybe",
+          "you",
+          "can",
+          "draw",
+          "your",
+          "favourite",
+          "animal"
+        ],
+        "pos_id": [
+          31,
+          29,
+          21,
+          38,
+          30,
+          17,
+          23
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "and",
+          "make",
+          "a",
+          "list",
+          "of",
+          "its",
+          "favourite",
+          "characteristics",
+          "."
+        ],
+        "pos_id": [
+          10,
+          38,
+          12,
+          23,
+          16,
+          30,
+          17,
+          26,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "So",
+          "right",
+          "now",
+          "?"
+        ],
+        "pos_id": [
+          31,
+          31,
+          31,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "I",
+          "do",
+          "n't",
+          "know",
+          "if",
+          "we",
+          "have",
+          "to",
+          "do",
+          "it",
+          "now",
+          ",",
+          "maybe",
+          "later",
+          "later",
+          "."
+        ],
+        "pos_id": [
+          29,
+          42,
+          31,
+          38,
+          16,
+          29,
+          42,
+          36,
+          38,
+          29,
+          31,
+          3,
+          31,
+          31,
+          31,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          2,
+          20,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "So",
+          "yeah",
+          "I",
+          "think",
+          "you",
+          "can",
+          "do",
+          "it",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          31,
+          37,
+          29,
+          42,
+          29,
+          21,
+          38,
+          29,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Yeah",
+          ",",
+          "I",
+          "do",
+          "n't",
+          "know",
+          "."
+        ],
+        "pos_id": [
+          37,
+          3,
+          29,
+          42,
+          31,
+          38,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "So",
+          "the",
+          "selling",
+          "price",
+          "of",
+          "the",
+          "product",
+          "will",
+          "be",
+          "twenty",
+          "five",
+          "Euros",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          31,
+          12,
+          23,
+          23,
+          16,
+          12,
+          23,
+          21,
+          38,
+          11,
+          11,
+          26,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          6,
+          24,
+          4,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Twenty",
+          "five",
+          "Euros",
+          "?"
+        ],
+        "pos_id": [
+          11,
+          11,
+          26,
+          6
+        ],
+        "ent_id": [
+          6,
+          24,
+          1,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Yeah",
+          ".",
+          "Yeah",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          37,
+          6,
+          37,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Mm",
+          "."
+        ],
+        "pos_id": [
+          24,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "I",
+          "think",
+          "it",
+          "'s",
+          "quite",
+          "good",
+          "price",
+          ",",
+          "yeah",
+          "."
+        ],
+        "pos_id": [
+          29,
+          42,
+          29,
+          43,
+          31,
+          17,
+          23,
+          3,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "I",
+          "it",
+          "'s",
+          "it",
+          "'s",
+          "reasonable",
+          ",",
+          "s",
+          "quite",
+          "{",
+          "disfmarker",
+          "}",
+          "yeah",
+          ".",
+          "Twenty",
+          "five",
+          "."
+        ],
+        "pos_id": [
+          29,
+          29,
+          43,
+          29,
+          43,
+          17,
+          3,
+          43,
+          31,
+          4,
+          23,
+          5,
+          37,
+          6,
+          11,
+          11,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          6,
+          24,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "It",
+          "'s",
+          "reasonable",
+          ",",
+          "I",
+          "think",
+          ",",
+          "yeah",
+          "."
+        ],
+        "pos_id": [
+          29,
+          43,
+          17,
+          3,
+          29,
+          42,
+          3,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "And",
+          "uh"
+        ],
+        "pos_id": [
+          10,
+          37
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "it",
+          "will",
+          "uh",
+          "be",
+          "a",
+          "an",
+          "international",
+          "remote",
+          "control",
+          ","
+        ],
+        "pos_id": [
+          29,
+          21,
+          37,
+          38,
+          12,
+          12,
+          17,
+          17,
+          23,
+          3
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Is",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          43,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "as",
+          "we",
+          "want",
+          "to",
+          "sell",
+          "it",
+          "in",
+          "the",
+          "entire",
+          "world",
+          ",",
+          "and",
+          "the",
+          "product",
+          "costs",
+          "will",
+          "be",
+          "not",
+          "more",
+          "than",
+          "twelve",
+          "Euros",
+          "and",
+          "fifty",
+          "centimes",
+          ".",
+          "So",
+          ",",
+          "as",
+          "you",
+          "will",
+          "discuss",
+          "about",
+          "the",
+          "remote",
+          "control",
+          "you",
+          "will",
+          "have",
+          "to",
+          "experience",
+          "your",
+          "um",
+          "{",
+          "disfmarker",
+          "}",
+          "with",
+          "the",
+          "remote",
+          "control",
+          ".",
+          "Um",
+          "just",
+          "uh",
+          "maybe",
+          "be",
+          "imaginative",
+          "with",
+          "{",
+          "vocalsound",
+          "}",
+          "remote",
+          "const",
+          "con",
+          "controls",
+          ","
+        ],
+        "pos_id": [
+          16,
+          29,
+          42,
+          36,
+          38,
+          29,
+          16,
+          12,
+          17,
+          23,
+          3,
+          10,
+          12,
+          23,
+          26,
+          21,
+          38,
+          31,
+          18,
+          16,
+          11,
+          24,
+          10,
+          11,
+          26,
+          6,
+          31,
+          3,
+          16,
+          29,
+          21,
+          38,
+          16,
+          12,
+          17,
+          23,
+          29,
+          21,
+          38,
+          36,
+          38,
+          30,
+          37,
+          4,
+          23,
+          5,
+          16,
+          12,
+          17,
+          23,
+          6,
+          37,
+          31,
+          37,
+          31,
+          38,
+          17,
+          16,
+          4,
+          23,
+          5,
+          17,
+          23,
+          23,
+          26,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          6,
+          24,
+          24,
+          4,
+          73,
+          6,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "try",
+          "to",
+          "create",
+          "something",
+          "new",
+          "and",
+          "people",
+          "would",
+          "like",
+          "to",
+          "to",
+          "buy",
+          ".",
+          "And",
+          "{",
+          "vocalsound",
+          "}",
+          "and",
+          "the",
+          "next",
+          "meeting",
+          "will",
+          "start",
+          "in",
+          "thirty",
+          "minutes",
+          ",",
+          "so",
+          "you",
+          "'ll",
+          "ha",
+          "all",
+          "have",
+          "your",
+          "spethisfispis",
+          "specif",
+          "specific",
+          "role",
+          "and",
+          "you",
+          "know",
+          "{",
+          "disfmarker",
+          "}",
+          "I",
+          "suppose",
+          "you",
+          "know",
+          "what",
+          "you",
+          "have",
+          "to",
+          "do",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          38,
+          36,
+          38,
+          23,
+          17,
+          10,
+          26,
+          21,
+          38,
+          36,
+          36,
+          38,
+          6,
+          10,
+          4,
+          23,
+          5,
+          10,
+          12,
+          17,
+          23,
+          21,
+          38,
+          16,
+          11,
+          26,
+          3,
+          31,
+          29,
+          21,
+          37,
+          12,
+          38,
+          30,
+          23,
+          17,
+          17,
+          23,
+          10,
+          29,
+          42,
+          4,
+          23,
+          5,
+          29,
+          42,
+          29,
+          42,
+          45,
+          29,
+          42,
+          36,
+          38,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          11,
+          29,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "Yeah",
+          ".",
+          "I",
+          "I",
+          "hope",
+          "so",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          37,
+          6,
+          29,
+          29,
+          42,
+          31,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "And",
+          "uh",
+          "you",
+          "will",
+          "have",
+          "to",
+          "work",
+          "on",
+          "the",
+          "design",
+          "and",
+          "also",
+          "to",
+          "work",
+          "on",
+          "the",
+          "design",
+          "of",
+          "th",
+          "technical",
+          "fun",
+          "functions",
+          "of",
+          "the",
+          "remote",
+          "control",
+          "and",
+          "think",
+          "of",
+          "the",
+          "user",
+          "requirement",
+          "specifications",
+          "."
+        ],
+        "pos_id": [
+          10,
+          37,
+          29,
+          21,
+          38,
+          36,
+          38,
+          16,
+          12,
+          23,
+          10,
+          31,
+          36,
+          38,
+          16,
+          12,
+          23,
+          16,
+          30,
+          17,
+          23,
+          26,
+          16,
+          12,
+          17,
+          23,
+          10,
+          38,
+          16,
+          12,
+          23,
+          23,
+          26,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Those",
+          "things",
+          "just",
+          "refer",
+          "to",
+          "each",
+          "of",
+          "each",
+          "of",
+          "us",
+          ",",
+          "I",
+          "think",
+          ".",
+          "AMI"
+        ],
+        "pos_id": [
+          12,
+          26,
+          31,
+          42,
+          16,
+          12,
+          16,
+          12,
+          16,
+          29,
+          3,
+          29,
+          42,
+          6,
+          24
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          1
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Yep",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "and",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          10,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "I_D",
+          "_",
+          ","
+        ],
+        "pos_id": [
+          17,
+          24,
+          3
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "So",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          31,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "I_D",
+          "_",
+          "is",
+          "for",
+          "the",
+          "Industrial",
+          "Design",
+          ",",
+          "yeah",
+          "?"
+        ],
+        "pos_id": [
+          17,
+          24,
+          43,
+          16,
+          12,
+          24,
+          24,
+          3,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          1,
+          19,
+          19,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "And",
+          "U_I_D",
+          "_",
+          ",",
+          "it",
+          "'s",
+          "for",
+          "the",
+          "User",
+          "Interface",
+          "Designer",
+          ","
+        ],
+        "pos_id": [
+          10,
+          24,
+          24,
+          3,
+          29,
+          43,
+          16,
+          12,
+          24,
+          24,
+          23,
+          3
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          1,
+          19,
+          19,
+          19,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "That",
+          "'s",
+          "me",
+          "."
+        ],
+        "pos_id": [
+          12,
+          43,
+          29,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Okay",
+          ","
+        ],
+        "pos_id": [
+          37,
+          3
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "yeah",
+          "?"
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "and",
+          "Marketing",
+          "Expert",
+          ",",
+          "it",
+          "'s",
+          "me",
+          "."
+        ],
+        "pos_id": [
+          10,
+          24,
+          24,
+          3,
+          29,
+          43,
+          29,
+          6
+        ],
+        "ent_id": [
+          73,
+          3,
+          21,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "AMI",
+          "yeah",
+          "project",
+          "."
+        ],
+        "pos_id": [
+          24,
+          37,
+          23,
+          6
+        ],
+        "ent_id": [
+          1,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "So",
+          "I",
+          "will",
+          "manage",
+          "all",
+          "all",
+          "the",
+          "group",
+          "."
+        ],
+        "pos_id": [
+          31,
+          29,
+          21,
+          38,
+          27,
+          27,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "you",
+          "will",
+          "be",
+          "the",
+          "manager",
+          "{",
+          "vocalsound",
+          "}",
+          "yeah",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          29,
+          21,
+          38,
+          12,
+          23,
+          4,
+          23,
+          5,
+          37,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "You",
+          "can",
+          "manage",
+          "all",
+          "this",
+          ",",
+          "yeah",
+          "."
+        ],
+        "pos_id": [
+          29,
+          21,
+          38,
+          27,
+          12,
+          3,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Good",
+          "."
+        ],
+        "pos_id": [
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "So",
+          "you",
+          "have",
+          "questions",
+          "?"
+        ],
+        "pos_id": [
+          31,
+          29,
+          42,
+          26,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Um",
+          ".",
+          "Not",
+          "really",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6,
+          31,
+          31,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "So"
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          31
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "you",
+          "all",
+          "know",
+          "what",
+          "the",
+          "parts",
+          "of",
+          "the",
+          "work",
+          "you",
+          "have",
+          "to",
+          "do",
+          "."
+        ],
+        "pos_id": [
+          29,
+          12,
+          42,
+          45,
+          12,
+          26,
+          16,
+          12,
+          23,
+          29,
+          42,
+          36,
+          38,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "So",
+          "which",
+          "{",
+          "disfmarker",
+          "}",
+          "you",
+          ",",
+          "the",
+          "Industrial",
+          "Designer",
+          "."
+        ],
+        "pos_id": [
+          31,
+          44,
+          4,
+          23,
+          5,
+          29,
+          3,
+          12,
+          24,
+          24,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          1,
+          19,
+          19,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "No",
+          "I",
+          "'m",
+          "user",
+          "interf",
+          "I",
+          "'m",
+          "user",
+          "interface",
+          "design",
+          "."
+        ],
+        "pos_id": [
+          37,
+          29,
+          42,
+          23,
+          41,
+          29,
+          42,
+          23,
+          23,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "I",
+          "am",
+          "the",
+          "Industrial",
+          "Design",
+          ",",
+          "yeah"
+        ],
+        "pos_id": [
+          29,
+          42,
+          12,
+          24,
+          24,
+          3,
+          37
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Mm",
+          "-",
+          "hmm",
+          "."
+        ],
+        "pos_id": [
+          24,
+          15,
+          23,
+          6
+        ],
+        "ent_id": [
+          3,
+          21,
+          21,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "And",
+          "you",
+          "?"
+        ],
+        "pos_id": [
+          10,
+          29,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "I",
+          "am",
+          "the",
+          "Industrial",
+          "Designer",
+          "so",
+          "."
+        ],
+        "pos_id": [
+          29,
+          42,
+          12,
+          24,
+          24,
+          31,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Mm",
+          "okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Okay",
+          ".",
+          "So",
+          "what",
+          "'s",
+          "the",
+          "difference",
+          "between"
+        ],
+        "pos_id": [
+          37,
+          6,
+          31,
+          45,
+          43,
+          12,
+          23,
+          16
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "user",
+          "interface",
+          "design",
+          "d",
+          "industrial",
+          "design",
+          "?",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          24,
+          24,
+          23,
+          10,
+          17,
+          23,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Hmm",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "I",
+          "mean",
+          ",",
+          "you",
+          "have",
+          "to",
+          "know",
+          ".",
+          "Ah",
+          ",",
+          "you",
+          "have",
+          "to",
+          "know",
+          "it",
+          "."
+        ],
+        "pos_id": [
+          29,
+          42,
+          3,
+          29,
+          42,
+          36,
+          38,
+          6,
+          37,
+          3,
+          29,
+          42,
+          36,
+          38,
+          29,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "It",
+          "'s",
+          "difficult",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          29,
+          43,
+          17,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "It",
+          "'s",
+          "your",
+          "job",
+          ",",
+          "so",
+          "I",
+          "hope",
+          "you",
+          "you",
+          "know",
+          "what",
+          "it",
+          "is",
+          "."
+        ],
+        "pos_id": [
+          29,
+          43,
+          30,
+          23,
+          3,
+          10,
+          29,
+          42,
+          29,
+          29,
+          42,
+          45,
+          29,
+          43,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "You",
+          "know",
+          "very",
+          "soon",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          29,
+          42,
+          31,
+          31,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Yeah",
+          ",",
+          "I",
+          "think",
+          "so",
+          "."
+        ],
+        "pos_id": [
+          37,
+          3,
+          29,
+          42,
+          31,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "So",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          31,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Mm",
+          "."
+        ],
+        "pos_id": [
+          24,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "I",
+          "suppose",
+          "you",
+          "have",
+          "to",
+          "design",
+          "it",
+          "and",
+          "you",
+          "have",
+          "to",
+          "take",
+          "care",
+          "of",
+          "the",
+          "industrial",
+          "way",
+          "to",
+          "transform",
+          "it",
+          "."
+        ],
+        "pos_id": [
+          29,
+          42,
+          29,
+          42,
+          36,
+          38,
+          29,
+          10,
+          29,
+          42,
+          36,
+          38,
+          23,
+          16,
+          12,
+          17,
+          23,
+          36,
+          38,
+          29,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Okay",
+          ",",
+          "so",
+          "I",
+          "make",
+          "uh",
+          "u",
+          "user",
+          "interface",
+          "."
+        ],
+        "pos_id": [
+          37,
+          3,
+          31,
+          29,
+          42,
+          37,
+          23,
+          23,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "You",
+          "you",
+          "de",
+          "you",
+          "implement",
+          "the",
+          "core",
+          "functions",
+          "in",
+          "the",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          29,
+          29,
+          42,
+          29,
+          42,
+          12,
+          23,
+          26,
+          16,
+          12,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "And",
+          "i",
+          "maybe",
+          "you",
+          "will",
+          "transform",
+          "it",
+          "{",
+          "vocalsound",
+          "}",
+          "."
+        ],
+        "pos_id": [
+          10,
+          29,
+          31,
+          29,
+          21,
+          38,
+          29,
+          4,
+          23,
+          5,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "I",
+          "I",
+          "think",
+          "the",
+          "user",
+          "the",
+          "user",
+          "interface",
+          "design",
+          "is",
+          "{",
+          "disfmarker",
+          "}",
+          "he",
+          "will",
+          "design",
+          "how",
+          "the",
+          "user",
+          "will",
+          "you",
+          "know",
+          "{",
+          "disfmarker",
+          "}",
+          "the",
+          "relation",
+          "between",
+          "the",
+          "user",
+          "and",
+          "you",
+          "know",
+          "the",
+          "remote",
+          "control",
+          "so",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          29,
+          29,
+          42,
+          12,
+          23,
+          12,
+          23,
+          23,
+          23,
+          43,
+          4,
+          23,
+          5,
+          29,
+          21,
+          38,
+          47,
+          12,
+          23,
+          21,
+          29,
+          38,
+          4,
+          23,
+          5,
+          12,
+          23,
+          16,
+          12,
+          23,
+          10,
+          29,
+          42,
+          12,
+          17,
+          23,
+          31,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Use",
+          "it",
+          ".",
+          "Make",
+          "make",
+          "{",
+          "disfmarker",
+          "}",
+          "yeah",
+          "."
+        ],
+        "pos_id": [
+          38,
+          29,
+          6,
+          38,
+          38,
+          4,
+          23,
+          5,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "And",
+          "the",
+          "uh",
+          "industrial",
+          "design",
+          ",",
+          "it",
+          "is",
+          "how",
+          "the",
+          "object",
+          "will",
+          "look",
+          "like",
+          "."
+        ],
+        "pos_id": [
+          10,
+          12,
+          37,
+          17,
+          23,
+          3,
+          29,
+          43,
+          47,
+          12,
+          23,
+          21,
+          38,
+          16,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Maybe",
+          "I",
+          "think",
+          "uh",
+          "uh",
+          "i",
+          "industrial",
+          "design",
+          "'s",
+          "uh",
+          ",",
+          "it",
+          "'s",
+          "the",
+          "function",
+          "design",
+          "."
+        ],
+        "pos_id": [
+          31,
+          29,
+          42,
+          37,
+          37,
+          29,
+          17,
+          23,
+          28,
+          37,
+          3,
+          29,
+          43,
+          12,
+          23,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Yeah",
+          ".",
+          "So",
+          "the",
+          "materi"
+        ],
+        "pos_id": [
+          37,
+          6,
+          31,
+          12,
+          23
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "I",
+          "design",
+          "the",
+          "user",
+          "f",
+          "user",
+          "interface",
+          ",",
+          "you",
+          "design",
+          "the",
+          "function",
+          "."
+        ],
+        "pos_id": [
+          29,
+          42,
+          12,
+          23,
+          24,
+          23,
+          23,
+          3,
+          29,
+          42,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Maybe",
+          ",",
+          "it",
+          "is",
+          "the",
+          "outside",
+          "and",
+          "the",
+          "inside",
+          "."
+        ],
+        "pos_id": [
+          31,
+          3,
+          29,
+          43,
+          12,
+          23,
+          10,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Okay",
+          "right",
+          ".",
+          "But",
+          "{",
+          "disfmarker",
+          "}",
+          "I",
+          "was",
+          "thinking",
+          "that",
+          "he",
+          "'s",
+          "a",
+          "user",
+          "{",
+          "disfmarker",
+          "}",
+          "'cause",
+          "the",
+          "user",
+          "interface",
+          "to",
+          "design",
+          "for",
+          "example",
+          "where",
+          "the",
+          "but",
+          "button",
+          "will",
+          "be",
+          ",",
+          "you",
+          "know",
+          "."
+        ],
+        "pos_id": [
+          37,
+          37,
+          6,
+          10,
+          4,
+          23,
+          5,
+          29,
+          39,
+          40,
+          16,
+          29,
+          43,
+          12,
+          23,
+          4,
+          23,
+          5,
+          16,
+          12,
+          23,
+          23,
+          36,
+          38,
+          16,
+          23,
+          47,
+          12,
+          10,
+          23,
+          21,
+          38,
+          3,
+          29,
+          42,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Yeah",
+          "yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "But",
+          "I",
+          "do",
+          "n't",
+          "know",
+          ".",
+          "{",
+          "vocalsound",
+          "}",
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          10,
+          29,
+          42,
+          31,
+          38,
+          6,
+          4,
+          23,
+          5,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Well",
+          ".",
+          "You",
+          "know",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6,
+          29,
+          42,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "I",
+          "'m",
+          "the",
+          "industrial",
+          "designer",
+          "."
+        ],
+        "pos_id": [
+          29,
+          42,
+          12,
+          17,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Oh",
+          ",",
+          "okay",
+          ",",
+          "okay",
+          ".",
+          "Not",
+          "the",
+          "other",
+          "one",
+          "."
+        ],
+        "pos_id": [
+          37,
+          3,
+          37,
+          3,
+          37,
+          6,
+          31,
+          12,
+          17,
+          11,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "So",
+          "."
+        ],
+        "pos_id": [
+          31,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Okay",
+          ".",
+          "So",
+          "and",
+          "the",
+          "marketing",
+          "expert",
+          "will",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          37,
+          6,
+          31,
+          10,
+          12,
+          23,
+          23,
+          21,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Yeah",
+          ",",
+          "I",
+          "'m",
+          "just",
+          "go",
+          "I",
+          "'m",
+          "trying",
+          "to",
+          "give",
+          "you",
+          "some",
+          "trends",
+          "about",
+          "what",
+          "should",
+          "be",
+          "done",
+          "and",
+          "what",
+          "the",
+          "users",
+          "would",
+          "like",
+          "to",
+          "have"
+        ],
+        "pos_id": [
+          37,
+          3,
+          29,
+          42,
+          31,
+          38,
+          29,
+          42,
+          40,
+          36,
+          38,
+          29,
+          12,
+          26,
+          16,
+          45,
+          21,
+          38,
+          41,
+          10,
+          45,
+          12,
+          26,
+          21,
+          38,
+          36,
+          38
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "And",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          10,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "and",
+          "then",
+          "thi",
+          "this",
+          "would",
+          "{",
+          "vocalsound",
+          "}",
+          "I",
+          "guess",
+          "converged",
+          "to",
+          "the",
+          "User",
+          "Interface",
+          "Designer",
+          "wi",
+          "and",
+          "then",
+          "Industrial",
+          "Designer",
+          "."
+        ],
+        "pos_id": [
+          10,
+          31,
+          24,
+          12,
+          21,
+          4,
+          38,
+          5,
+          29,
+          42,
+          41,
+          16,
+          12,
+          24,
+          24,
+          24,
+          24,
+          10,
+          31,
+          17,
+          24,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          1,
+          19,
+          19,
+          19,
+          73,
+          73,
+          73,
+          1,
+          19,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Ok",
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "And",
+          "when",
+          "designing",
+          "y",
+          "the",
+          "remote",
+          "control",
+          "just",
+          "remember",
+          "that",
+          "uh",
+          "it",
+          "has",
+          "to",
+          "be",
+          "a",
+          "kind",
+          "of",
+          "international",
+          "product",
+          ".",
+          "So",
+          "you",
+          "do",
+          "n't",
+          "have",
+          "to",
+          "do",
+          "something",
+          "really",
+          "specific",
+          ","
+        ],
+        "pos_id": [
+          10,
+          47,
+          40,
+          29,
+          12,
+          17,
+          23,
+          31,
+          42,
+          16,
+          37,
+          29,
+          43,
+          36,
+          38,
+          12,
+          23,
+          16,
+          17,
+          23,
+          6,
+          31,
+          29,
+          42,
+          31,
+          38,
+          36,
+          38,
+          23,
+          31,
+          17,
+          3
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "as",
+          "everybody",
+          "everybody",
+          "will",
+          "have",
+          "to",
+          "use",
+          "it",
+          ","
+        ],
+        "pos_id": [
+          16,
+          23,
+          23,
+          21,
+          38,
+          36,
+          38,
+          29,
+          3
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Mm",
+          "-",
+          "hmm",
+          "."
+        ],
+        "pos_id": [
+          24,
+          15,
+          23,
+          6
+        ],
+        "ent_id": [
+          3,
+          21,
+          21,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Mm",
+          "."
+        ],
+        "pos_id": [
+          24,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "it",
+          "'s",
+          "sor",
+          "the",
+          "same",
+          "as",
+          "keyboards",
+          ".",
+          "You",
+          "know",
+          ",",
+          "you",
+          "have",
+          "Qwerty",
+          ",",
+          "Azerty",
+          ",",
+          "French",
+          "and",
+          "U_K",
+          "_",
+          "keyboard",
+          ","
+        ],
+        "pos_id": [
+          29,
+          43,
+          24,
+          12,
+          17,
+          16,
+          26,
+          6,
+          29,
+          42,
+          3,
+          29,
+          42,
+          24,
+          3,
+          24,
+          3,
+          24,
+          10,
+          17,
+          24,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          3,
+          73,
+          4,
+          73,
+          7,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Yeah",
+          ".",
+          "Mm",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          3,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "so",
+          "really",
+          "the",
+          "remote",
+          "control",
+          "to",
+          "be",
+          "international",
+          "."
+        ],
+        "pos_id": [
+          31,
+          31,
+          12,
+          17,
+          23,
+          36,
+          38,
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Yeah",
+          ".",
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "And",
+          "not",
+          "too",
+          "expensive",
+          "."
+        ],
+        "pos_id": [
+          10,
+          31,
+          31,
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Mm",
+          "-",
+          "hmm",
+          "."
+        ],
+        "pos_id": [
+          24,
+          15,
+          23,
+          6
+        ],
+        "ent_id": [
+          3,
+          21,
+          21,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Yeah",
+          ".",
+          "And",
+          "uh",
+          "simple",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6,
+          10,
+          37,
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "As",
+          "we",
+          "want",
+          "to",
+          "maximise",
+          "the",
+          "benefit",
+          "."
+        ],
+        "pos_id": [
+          16,
+          29,
+          42,
+          36,
+          38,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "And",
+          "easy",
+          "to",
+          "use",
+          "."
+        ],
+        "pos_id": [
+          10,
+          17,
+          36,
+          38,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "And",
+          "you",
+          "have",
+          "to",
+          "keep",
+          "it",
+          "under",
+          "twelve",
+          "Euros",
+          "and",
+          "f",
+          "fifty",
+          ",",
+          "so",
+          "."
+        ],
+        "pos_id": [
+          10,
+          29,
+          42,
+          36,
+          38,
+          29,
+          16,
+          11,
+          24,
+          10,
+          24,
+          11,
+          3,
+          31,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          6,
+          1,
+          73,
+          73,
+          6,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Yeah",
+          ",",
+          "you",
+          "have",
+          "to",
+          "keep",
+          "in",
+          "mind",
+          "that",
+          "the",
+          "product",
+          "cost",
+          "wo",
+          "n't",
+          "be",
+          "maxim",
+          "more",
+          "than",
+          "twelve",
+          "dot",
+          "fifty",
+          "Euros",
+          "."
+        ],
+        "pos_id": [
+          37,
+          3,
+          29,
+          42,
+          36,
+          38,
+          16,
+          23,
+          16,
+          12,
+          23,
+          23,
+          21,
+          31,
+          38,
+          23,
+          18,
+          16,
+          11,
+          23,
+          11,
+          24,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          6,
+          24,
+          24,
+          73,
+          73,
+          4,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Ah",
+          ",",
+          "yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          3,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "It",
+          "should",
+          "be",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          29,
+          21,
+          38,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "That",
+          "'s",
+          "the",
+          "problem",
+          "."
+        ],
+        "pos_id": [
+          12,
+          43,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Okay",
+          ".",
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "And",
+          "to",
+          "be",
+          "sure",
+          "that",
+          "really",
+          "people",
+          "will",
+          "be",
+          "interested",
+          "in",
+          "buying",
+          "a",
+          "new",
+          "remote",
+          "control",
+          "with",
+          "maybe",
+          "new",
+          "functionalities",
+          "that",
+          "do",
+          "n't",
+          "exist",
+          "in",
+          "the",
+          "mm",
+          "existing",
+          "remote",
+          "controls",
+          "now",
+          "."
+        ],
+        "pos_id": [
+          10,
+          36,
+          38,
+          17,
+          16,
+          31,
+          26,
+          21,
+          38,
+          17,
+          16,
+          40,
+          12,
+          17,
+          17,
+          23,
+          16,
+          31,
+          17,
+          26,
+          44,
+          42,
+          31,
+          38,
+          16,
+          12,
+          23,
+          40,
+          17,
+          26,
+          31,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          3,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Okay",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          37,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "So",
+          ",",
+          "is",
+          "it",
+          "okay",
+          "?"
+        ],
+        "pos_id": [
+          10,
+          3,
+          43,
+          29,
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Mm",
+          ".",
+          "It",
+          "'s",
+          "clear",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6,
+          29,
+          43,
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "There",
+          "was",
+          "a",
+          "step",
+          "about",
+          "drawing",
+          "something",
+          "in",
+          "the",
+          "in",
+          "the",
+          "board",
+          ",",
+          "I",
+          "do",
+          "n't",
+          "know",
+          "."
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          13,
+          39,
+          12,
+          23,
+          16,
+          40,
+          23,
+          16,
+          12,
+          16,
+          12,
+          23,
+          3,
+          29,
+          42,
+          31,
+          38,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Yeah",
+          ",",
+          "maybe",
+          "should",
+          "go",
+          "and",
+          "draw",
+          "an",
+          "animal",
+          "."
+        ],
+        "pos_id": [
+          37,
+          3,
+          31,
+          21,
+          38,
+          10,
+          38,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Is",
+          "it",
+          "?",
+          "{",
+          "vocalsound",
+          "}",
+          "Are",
+          "we",
+          "supposed",
+          "to",
+          "do",
+          "right",
+          "now",
+          "?",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          43,
+          29,
+          6,
+          4,
+          23,
+          5,
+          42,
+          29,
+          41,
+          36,
+          38,
+          31,
+          31,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Yeah",
+          "yeah",
+          ",",
+          "you",
+          "try",
+          ".",
+          "Try",
+          "first",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          37,
+          37,
+          3,
+          29,
+          42,
+          6,
+          38,
+          31,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          15,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Oh",
+          "right",
+          "it",
+          "'s",
+          "it",
+          "'s",
+          "from",
+          "the",
+          "left",
+          "to",
+          "the",
+          "ri",
+          "{",
+          "vocalsound",
+          "}",
+          "It",
+          "'s",
+          "{",
+          "disfmarker",
+          "}",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          37,
+          37,
+          29,
+          43,
+          29,
+          43,
+          16,
+          12,
+          23,
+          16,
+          12,
+          24,
+          4,
+          23,
+          5,
+          29,
+          43,
+          4,
+          23,
+          5,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "So"
+        ],
+        "pos_id": [
+          31
+        ],
+        "ent_id": [
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "you",
+          "think",
+          "we",
+          "have",
+          "to",
+          "do",
+          "it",
+          "now",
+          "?"
+        ],
+        "pos_id": [
+          29,
+          42,
+          29,
+          42,
+          36,
+          38,
+          29,
+          31,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "I",
+          "d",
+          "I",
+          "was",
+          "thinking",
+          "but",
+          "I",
+          "n",
+          "I",
+          "'m",
+          "not",
+          "sure",
+          "now",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          29,
+          48,
+          29,
+          39,
+          40,
+          10,
+          29,
+          10,
+          29,
+          42,
+          31,
+          17,
+          31,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "You",
+          "can",
+          "draw",
+          "something",
+          "which",
+          "is",
+          "very",
+          "simple",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          29,
+          21,
+          38,
+          23,
+          44,
+          43,
+          31,
+          17,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "You",
+          "want",
+          "me",
+          "to",
+          "draw",
+          "something",
+          "?"
+        ],
+        "pos_id": [
+          29,
+          42,
+          29,
+          36,
+          38,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Oh",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          37,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Product",
+          "manager",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          23,
+          23,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Everybody",
+          "{",
+          "vocalsound",
+          "}",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          23,
+          4,
+          23,
+          5,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "okay",
+          ",",
+          "let",
+          "'s",
+          "go",
+          ","
+        ],
+        "pos_id": [
+          37,
+          3,
+          38,
+          29,
+          38,
+          3
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Oh",
+          ",",
+          "maybe",
+          "we",
+          "should",
+          "bring",
+          "Kemy",
+          "here",
+          "."
+        ],
+        "pos_id": [
+          37,
+          3,
+          31,
+          29,
+          21,
+          38,
+          24,
+          31,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          3,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "I",
+          "will",
+          "try",
+          "."
+        ],
+        "pos_id": [
+          29,
+          21,
+          38,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Kemy",
+          "is",
+          "really",
+          "good",
+          "at",
+          "drawing",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          24,
+          43,
+          31,
+          17,
+          16,
+          40,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          3,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Many",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          17,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "I",
+          "think",
+          "everybody",
+          "should",
+          "do",
+          "it",
+          ",",
+          "so",
+          "."
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          29,
+          42,
+          23,
+          21,
+          38,
+          29,
+          3,
+          31,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "It",
+          "'s",
+          "not",
+          "matter",
+          "{",
+          "vocalsound",
+          "}",
+          "So",
+          "."
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          29,
+          43,
+          31,
+          17,
+          4,
+          23,
+          5,
+          31,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "You",
+          "'re",
+          "going",
+          "to",
+          "draw",
+          "?",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          29,
+          42,
+          40,
+          36,
+          38,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Uh",
+          "it",
+          "'s",
+          "the",
+          "same",
+          "as",
+          "mine",
+          "."
+        ],
+        "pos_id": [
+          37,
+          29,
+          43,
+          12,
+          17,
+          16,
+          29,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "What",
+          "'s",
+          "this",
+          "?"
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          45,
+          43,
+          12,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "yeah",
+          ".",
+          "It",
+          "'s",
+          "a",
+          "{",
+          "disfmarker",
+          "}",
+          "{",
+          "vocalsound",
+          "}",
+          "It",
+          "'s",
+          "a",
+          "cat",
+          "."
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          37,
+          6,
+          29,
+          43,
+          12,
+          4,
+          23,
+          5,
+          4,
+          23,
+          5,
+          29,
+          43,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "It",
+          "'s",
+          "a",
+          "fat",
+          "cat",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          29,
+          43,
+          12,
+          17,
+          23,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "It",
+          "is",
+          "not",
+          "a",
+          "fat",
+          "cat",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          29,
+          43,
+          31,
+          12,
+          17,
+          23,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "It",
+          "'s",
+          "the",
+          "fat",
+          "cat",
+          ",",
+          "okay",
+          "."
+        ],
+        "pos_id": [
+          29,
+          43,
+          12,
+          17,
+          23,
+          3,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Yeah",
+          ",",
+          "it",
+          "is",
+          "a",
+          "{",
+          "disfmarker",
+          "}",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          37,
+          3,
+          29,
+          43,
+          12,
+          4,
+          23,
+          5,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Can",
+          "you",
+          "draw",
+          "uh",
+          "um",
+          "rabbit",
+          "?"
+        ],
+        "pos_id": [
+          21,
+          29,
+          38,
+          37,
+          37,
+          38,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Oh",
+          ",",
+          "hat",
+          "ha",
+          "rat",
+          "."
+        ],
+        "pos_id": [
+          37,
+          3,
+          23,
+          37,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "A",
+          "rat",
+          "?"
+        ],
+        "pos_id": [
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "That",
+          "'s",
+          "difficult",
+          "."
+        ],
+        "pos_id": [
+          12,
+          43,
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Yes",
+          "you",
+          "have",
+          "to",
+          "draw",
+          "a",
+          "rat",
+          "if",
+          "you",
+          "want",
+          "a",
+          "rat",
+          "."
+        ],
+        "pos_id": [
+          37,
+          29,
+          42,
+          36,
+          38,
+          12,
+          23,
+          16,
+          29,
+          42,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "No",
+          ".",
+          "A",
+          "mouse",
+          "is",
+          "not",
+          "too",
+          "difficult",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6,
+          12,
+          23,
+          43,
+          31,
+          31,
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "It",
+          "'s",
+          "your",
+          "rat",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          29,
+          43,
+          30,
+          23,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Mouse",
+          "is",
+          "okay",
+          "."
+        ],
+        "pos_id": [
+          24,
+          43,
+          17,
+          6
+        ],
+        "ent_id": [
+          1,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "Yeah",
+          ",",
+          "it",
+          "'s",
+          "okay",
+          "."
+        ],
+        "pos_id": [
+          4,
+          24,
+          5,
+          37,
+          3,
+          29,
+          43,
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Yeah",
+          ".",
+          "Just",
+          "go",
+          ","
+        ],
+        "pos_id": [
+          37,
+          6,
+          31,
+          38,
+          3
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Okay",
+          ","
+        ],
+        "pos_id": [
+          37,
+          3
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "you",
+          "you",
+          "the",
+          "closest",
+          "to",
+          "the",
+          "whiteboard",
+          "."
+        ],
+        "pos_id": [
+          29,
+          29,
+          12,
+          19,
+          16,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "go",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          38,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Mm",
+          "."
+        ],
+        "pos_id": [
+          24,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "gap",
+          "}",
+          "right",
+          ",",
+          "but",
+          "in",
+          "grow",
+          ",",
+          "it",
+          "'s",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          23,
+          3,
+          10,
+          16,
+          24,
+          3,
+          29,
+          43,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Jus"
+        ],
+        "pos_id": [
+          24
+        ],
+        "ent_id": [
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "everybody",
+          "has",
+          "to",
+          "grow",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          23,
+          43,
+          36,
+          38,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Oh",
+          ".",
+          "Okay",
+          ",",
+          "I",
+          "draw",
+          ".",
+          "The",
+          "only",
+          "thing",
+          "I",
+          "can",
+          "draw",
+          "is",
+          "like",
+          "this",
+          ".",
+          "Oh",
+          ".",
+          "Oh",
+          ".",
+          "Oh",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6,
+          37,
+          3,
+          29,
+          42,
+          6,
+          12,
+          17,
+          23,
+          29,
+          21,
+          38,
+          43,
+          16,
+          12,
+          6,
+          37,
+          6,
+          37,
+          6,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "A",
+          "duck",
+          "."
+        ],
+        "pos_id": [
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "You",
+          "love",
+          "the",
+          "eyes",
+          "."
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          29,
+          42,
+          12,
+          26,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "No",
+          ".",
+          "{",
+          "vocalsound",
+          "}",
+          "What",
+          "'s",
+          "this",
+          "?"
+        ],
+        "pos_id": [
+          37,
+          6,
+          4,
+          23,
+          5,
+          45,
+          43,
+          12,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "What",
+          "are",
+          "you",
+          "{",
+          "disfmarker",
+          "}",
+          "I",
+          "don",
+          "{",
+          "vocalsound",
+          "}",
+          "no",
+          "idea",
+          ",",
+          "so",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          45,
+          42,
+          29,
+          4,
+          23,
+          5,
+          29,
+          42,
+          4,
+          23,
+          5,
+          12,
+          23,
+          3,
+          31,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Yeah",
+          ",",
+          "that",
+          "was",
+          "the",
+          "eyes",
+          "."
+        ],
+        "pos_id": [
+          37,
+          3,
+          12,
+          39,
+          12,
+          26,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "A",
+          "clown",
+          "."
+        ],
+        "pos_id": [
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Rabbit",
+          "."
+        ],
+        "pos_id": [
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "It",
+          "'s",
+          "a",
+          "rabbit",
+          "."
+        ],
+        "pos_id": [
+          29,
+          43,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Pikachu",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          24,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "It",
+          "'s",
+          "a",
+          "rabbit",
+          "."
+        ],
+        "pos_id": [
+          29,
+          43,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "Oh",
+          "yeah",
+          ".",
+          "Bugs",
+          "Bunny",
+          "one",
+          "."
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          37,
+          37,
+          6,
+          26,
+          24,
+          11,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          3,
+          21,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "It",
+          "'s",
+          "not",
+          "so",
+          "bad",
+          "so",
+          "."
+        ],
+        "pos_id": [
+          29,
+          43,
+          31,
+          31,
+          17,
+          31,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "The",
+          "only",
+          "thing",
+          "I",
+          "can",
+          "draw",
+          ",",
+          "because",
+          "it",
+          "'s",
+          "very",
+          "simple",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          12,
+          17,
+          23,
+          29,
+          21,
+          38,
+          3,
+          16,
+          29,
+          43,
+          31,
+          17,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Okay",
+          ".",
+          "I",
+          "go",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6,
+          29,
+          42,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "{",
+          "gap",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "What",
+          "?",
+          "Oh",
+          ".",
+          "So",
+          "what",
+          "else",
+          "?",
+          "This",
+          "was",
+          "my",
+          "favourite",
+          "one",
+          ","
+        ],
+        "pos_id": [
+          45,
+          6,
+          37,
+          6,
+          31,
+          45,
+          31,
+          6,
+          12,
+          39,
+          30,
+          17,
+          23,
+          3
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          6,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "So",
+          "you",
+          "do",
+          "n't",
+          "have",
+          "a",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          31,
+          29,
+          42,
+          31,
+          38,
+          12,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "Thank",
+          "you",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5,
+          42,
+          29,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "but",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          10,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "A",
+          "fish",
+          "."
+        ],
+        "pos_id": [
+          4,
+          24,
+          5,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Right",
+          ".",
+          "A",
+          "fish",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "That",
+          "'s",
+          "a",
+          "that",
+          "'s",
+          "a",
+          "fish",
+          "?"
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          12,
+          43,
+          12,
+          12,
+          43,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Okay",
+          ",",
+          "let",
+          "'s",
+          "try",
+          "to",
+          "draw",
+          "something",
+          "."
+        ],
+        "pos_id": [
+          37,
+          3,
+          38,
+          29,
+          38,
+          36,
+          38,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "You",
+          "forgot",
+          "the",
+          "chips",
+          "."
+        ],
+        "pos_id": [
+          29,
+          42,
+          12,
+          26,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Oh",
+          "yeah",
+          ",",
+          "does",
+          "n't",
+          "look",
+          "so",
+          "fine",
+          "."
+        ],
+        "pos_id": [
+          37,
+          37,
+          3,
+          43,
+          31,
+          38,
+          31,
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Have",
+          "to",
+          "be",
+          "really",
+          "careful",
+          "."
+        ],
+        "pos_id": [
+          42,
+          36,
+          38,
+          31,
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Fish",
+          "and",
+          "chips",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          26,
+          10,
+          26,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "Okay",
+          ","
+        ],
+        "pos_id": [
+          4,
+          24,
+          5,
+          37,
+          3
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Ah",
+          "{",
+          "vocalsound",
+          "}",
+          "it",
+          "'s",
+          "my",
+          "turn",
+          "."
+        ],
+        "pos_id": [
+          37,
+          4,
+          23,
+          5,
+          29,
+          43,
+          30,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "it",
+          "'s",
+          "your",
+          "turn",
+          "."
+        ],
+        "pos_id": [
+          29,
+          43,
+          30,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Oh",
+          ".",
+          "Okay",
+          ",",
+          "be",
+          "careful",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6,
+          37,
+          3,
+          38,
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Okay",
+          ".",
+          "So",
+          ".",
+          "{",
+          "gap",
+          "}",
+          "{",
+          "gap",
+          "}",
+          "It",
+          "'s",
+          "ok"
+        ],
+        "pos_id": [
+          37,
+          6,
+          31,
+          6,
+          4,
+          23,
+          5,
+          4,
+          23,
+          5,
+          29,
+          43,
+          17
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Of"
+        ],
+        "pos_id": [
+          16
+        ],
+        "ent_id": [
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "No",
+          "problem",
+          ",",
+          "no",
+          "problem",
+          "."
+        ],
+        "pos_id": [
+          12,
+          23,
+          3,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "So",
+          ",",
+          "what",
+          "can",
+          "I",
+          "draw",
+          "some",
+          "more",
+          "?"
+        ],
+        "pos_id": [
+          31,
+          3,
+          45,
+          21,
+          29,
+          38,
+          12,
+          32,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Oh",
+          "{",
+          "gap",
+          "}",
+          ".",
+          "{",
+          "gap",
+          "}",
+          "?"
+        ],
+        "pos_id": [
+          37,
+          4,
+          23,
+          5,
+          6,
+          4,
+          23,
+          5,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "{",
+          "vocalsound",
+          "}",
+          "{",
+          "gap",
+          "}",
+          "?",
+          "No",
+          ".",
+          "Mm",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5,
+          4,
+          24,
+          5,
+          4,
+          23,
+          5,
+          6,
+          37,
+          6,
+          23,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          3,
+          21,
+          21,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "{",
+          "gap",
+          "}",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5,
+          4,
+          23,
+          5,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Yeah",
+          ",",
+          "it",
+          "'s",
+          "it",
+          "'s",
+          "a",
+          "se",
+          "it",
+          "'s",
+          "my",
+          "priority",
+          "this",
+          "one",
+          ".",
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          3,
+          29,
+          43,
+          29,
+          43,
+          12,
+          14,
+          29,
+          43,
+          30,
+          23,
+          12,
+          23,
+          6,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Mm",
+          "."
+        ],
+        "pos_id": [
+          24,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "A",
+          "person",
+          "?",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          12,
+          23,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "No",
+          ".",
+          "It",
+          "'s",
+          "a",
+          "really",
+          "crazy",
+          "dog",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          37,
+          6,
+          29,
+          43,
+          12,
+          31,
+          17,
+          23,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "Oh",
+          "yeah",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          37,
+          37,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "Dog",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5,
+          24,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Good",
+          "."
+        ],
+        "pos_id": [
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Transfer",
+          ".",
+          "It",
+          "'s",
+          "a",
+          "dog",
+          "in",
+          "a",
+          "village",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          23,
+          6,
+          29,
+          43,
+          12,
+          23,
+          16,
+          12,
+          23,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "So",
+          "what",
+          "are",
+          "you",
+          "sug",
+          "going",
+          "to",
+          "do",
+          "now",
+          "?",
+          "{",
+          "gap",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          31,
+          45,
+          42,
+          29,
+          42,
+          40,
+          36,
+          38,
+          31,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "I",
+          "think",
+          "it",
+          "'s",
+          "done",
+          "."
+        ],
+        "pos_id": [
+          29,
+          42,
+          29,
+          43,
+          41,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Yeah",
+          ",",
+          "I",
+          "think",
+          "{",
+          "disfmarker",
+          "}"
+        ],
+        "pos_id": [
+          37,
+          3,
+          29,
+          42,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "It",
+          "'s",
+          "done",
+          "?"
+        ],
+        "pos_id": [
+          29,
+          43,
+          41,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Just",
+          "have",
+          "to",
+          "{",
+          "disfmarker",
+          "}",
+          "present",
+          "project",
+          ","
+        ],
+        "pos_id": [
+          31,
+          38,
+          36,
+          4,
+          23,
+          5,
+          17,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "So",
+          "we",
+          "have",
+          "break",
+          "."
+        ],
+        "pos_id": [
+          31,
+          29,
+          42,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "discuss",
+          "a",
+          "little",
+          "bit",
+          "about",
+          "it",
+          "."
+        ],
+        "pos_id": [
+          38,
+          12,
+          17,
+          23,
+          16,
+          29,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Oh",
+          "my",
+          "God",
+          "."
+        ],
+        "pos_id": [
+          37,
+          37,
+          24,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Oh",
+          ",",
+          "we",
+          "have",
+          "twenty",
+          "five",
+          "minutes",
+          "for",
+          "the",
+          "meeting",
+          "."
+        ],
+        "pos_id": [
+          37,
+          3,
+          29,
+          42,
+          11,
+          11,
+          26,
+          16,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          11,
+          29,
+          29,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "So",
+          ",",
+          "if",
+          "you",
+          "have",
+          "questions",
+          "."
+        ],
+        "pos_id": [
+          10,
+          3,
+          16,
+          29,
+          42,
+          26,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Oh",
+          ".",
+          "Hmm",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          24,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Know",
+          "what",
+          "time",
+          "is",
+          "it",
+          "?",
+          "No",
+          "."
+        ],
+        "pos_id": [
+          38,
+          44,
+          23,
+          43,
+          29,
+          6,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "No",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          37,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "It",
+          "'s",
+          "okay",
+          "?"
+        ],
+        "pos_id": [
+          29,
+          43,
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "Yeah",
+          ",",
+          "it",
+          "'s",
+          "okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          3,
+          29,
+          43,
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "You",
+          "know",
+          "your",
+          "job",
+          "?",
+          "you",
+          "know",
+          "your",
+          "job",
+          "?"
+        ],
+        "pos_id": [
+          29,
+          42,
+          30,
+          23,
+          6,
+          29,
+          42,
+          30,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "{",
+          "vocalsound",
+          "}",
+          "We",
+          "have",
+          "an",
+          "idea",
+          "yeah",
+          ".",
+          "{",
+          "vocalsound",
+          "}"
+        ],
+        "pos_id": [
+          4,
+          23,
+          5,
+          29,
+          42,
+          12,
+          23,
+          37,
+          6,
+          4,
+          23,
+          5
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "You",
+          "know",
+          "your",
+          "job",
+          "?"
+        ],
+        "pos_id": [
+          29,
+          42,
+          30,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Designer",
+      "role": "Industrial",
+      "utt": {
+        "word": [
+          "I",
+          "have",
+          "an",
+          "idea",
+          "of",
+          "my",
+          "job",
+          "{",
+          "vocalsound",
+          "}",
+          "so",
+          "{",
+          "disfmarker",
+          "}",
+          "yeah",
+          "so",
+          ".",
+          "Yeah",
+          "."
+        ],
+        "pos_id": [
+          29,
+          42,
+          12,
+          23,
+          16,
+          30,
+          23,
+          4,
+          23,
+          5,
+          31,
+          4,
+          23,
+          5,
+          37,
+          31,
+          6,
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Manager",
+      "role": "Project",
+      "utt": {
+        "word": [
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "Interface",
+      "role": "User",
+      "utt": {
+        "word": [
+          "Okay",
+          "."
+        ],
+        "pos_id": [
+          37,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "speaker": "",
+      "role": "Marketing",
+      "utt": {
+        "word": [
+          "Good",
+          "."
+        ],
+        "pos_id": [
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73
+        ]
+      }
+    }
+  ],
+  "queries": [
+    {
+      "query": {
+        "word": [
+          "Summarize",
+          "the",
+          "discussion",
+          "about",
+          "the",
+          "product",
+          "features",
+          "."
+        ],
+        "pos_id": [
+          38,
+          12,
+          23,
+          16,
+          12,
+          23,
+          26,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ],
+        "relevant_text_span": [
+          [
+            "4",
+            "4"
+          ],
+          [
+            "28",
+            "34"
+          ],
+          [
+            "113",
+            "140"
+          ]
+        ]
+      },
+      "answer": {
+        "word": [
+          "The",
+          "remote",
+          "control",
+          "had",
+          "to",
+          "be",
+          "original",
+          ",",
+          "trendy",
+          ",",
+          "easy",
+          "to",
+          "use",
+          ",",
+          "international",
+          "and",
+          "not",
+          "too",
+          "expensive",
+          "."
+        ],
+        "pos_id": [
+          12,
+          17,
+          23,
+          39,
+          36,
+          38,
+          17,
+          3,
+          17,
+          3,
+          17,
+          36,
+          38,
+          3,
+          17,
+          10,
+          31,
+          31,
+          17,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "query": {
+        "word": [
+          "Why",
+          "did",
+          "Project",
+          "Manager",
+          "propose",
+          "that",
+          "the",
+          "product",
+          "should",
+          "be",
+          "international",
+          "when",
+          "discussing",
+          "the",
+          "product",
+          "features",
+          "?"
+        ],
+        "pos_id": [
+          47,
+          39,
+          24,
+          24,
+          38,
+          16,
+          12,
+          23,
+          21,
+          38,
+          17,
+          47,
+          40,
+          12,
+          23,
+          26,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ],
+        "relevant_text_span": [
+          [
+            "28",
+            "30"
+          ],
+          [
+            "113",
+            "121"
+          ]
+        ]
+      },
+      "answer": {
+        "word": [
+          "Because",
+          "it",
+          "would",
+          "be",
+          "sold",
+          "in",
+          "the",
+          "entire",
+          "world",
+          "and",
+          "everyone",
+          "would",
+          "use",
+          "it",
+          "."
+        ],
+        "pos_id": [
+          16,
+          29,
+          21,
+          38,
+          41,
+          16,
+          12,
+          17,
+          23,
+          10,
+          23,
+          21,
+          38,
+          29,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "query": {
+        "word": [
+          "Summarize",
+          "the",
+          "conclusion",
+          "of",
+          "the",
+          "discussion",
+          "about",
+          "the",
+          "product",
+          "price",
+          "and",
+          "cost",
+          "as",
+          "a",
+          "part",
+          "of",
+          "the",
+          "product",
+          "features",
+          "."
+        ],
+        "pos_id": [
+          38,
+          12,
+          23,
+          16,
+          12,
+          23,
+          16,
+          12,
+          23,
+          23,
+          10,
+          23,
+          16,
+          12,
+          23,
+          16,
+          12,
+          23,
+          26,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ],
+        "relevant_text_span": [
+          [
+            "19",
+            "25"
+          ],
+          [
+            "122",
+            "132"
+          ]
+        ]
+      },
+      "answer": {
+        "word": [
+          "The",
+          "remote",
+          "control",
+          "would",
+          "be",
+          "priced",
+          "at",
+          "25",
+          "Euros",
+          "and",
+          "the",
+          "product",
+          "cost",
+          "would",
+          "be",
+          "no",
+          "more",
+          "than",
+          "12.5",
+          "Euros",
+          "."
+        ],
+        "pos_id": [
+          12,
+          17,
+          23,
+          21,
+          38,
+          41,
+          16,
+          11,
+          26,
+          10,
+          12,
+          23,
+          23,
+          21,
+          38,
+          31,
+          18,
+          16,
+          11,
+          26,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          6,
+          1,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          8,
+          26,
+          26,
+          26,
+          26,
+          73
+        ]
+      }
+    },
+    {
+      "query": {
+        "word": [
+          "Summarize",
+          "the",
+          "discussion",
+          "about",
+          "the",
+          "work",
+          "division",
+          "of",
+          "the",
+          "project",
+          "."
+        ],
+        "pos_id": [
+          38,
+          12,
+          23,
+          16,
+          12,
+          23,
+          23,
+          16,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ],
+        "relevant_text_span": [
+          [
+            "35",
+            "112"
+          ]
+        ]
+      },
+      "answer": {
+        "word": [
+          "Project",
+          "manager",
+          "would",
+          "manage",
+          "the",
+          "whole",
+          "group",
+          ".",
+          "Industrial",
+          "Designer",
+          "would",
+          "think",
+          "of",
+          "the",
+          "functions",
+          "of",
+          "the",
+          "product",
+          ".",
+          "User",
+          "interface",
+          "designer",
+          "would",
+          "concentrate",
+          "on",
+          "the",
+          "users",
+          "'",
+          "requirement",
+          "and",
+          "the",
+          "relation",
+          "between",
+          "the",
+          "users",
+          "and",
+          "the",
+          "remote",
+          "control",
+          ".",
+          "Marketing",
+          "would",
+          "give",
+          "interface",
+          "designer",
+          "and",
+          "industrial",
+          "designer",
+          "some",
+          "trends",
+          "about",
+          "what",
+          "should",
+          "be",
+          "done",
+          "and",
+          "what",
+          "the",
+          "users",
+          "would",
+          "like",
+          "to",
+          "have",
+          "."
+        ],
+        "pos_id": [
+          23,
+          23,
+          21,
+          38,
+          12,
+          17,
+          23,
+          6,
+          17,
+          24,
+          21,
+          38,
+          16,
+          12,
+          26,
+          16,
+          12,
+          23,
+          6,
+          23,
+          23,
+          23,
+          21,
+          38,
+          16,
+          12,
+          26,
+          28,
+          23,
+          10,
+          12,
+          23,
+          16,
+          12,
+          26,
+          10,
+          12,
+          17,
+          23,
+          6,
+          23,
+          21,
+          38,
+          23,
+          23,
+          10,
+          17,
+          23,
+          12,
+          26,
+          16,
+          45,
+          21,
+          38,
+          41,
+          10,
+          45,
+          12,
+          26,
+          21,
+          38,
+          36,
+          38,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "query": {
+        "word": [
+          "What",
+          "was",
+          "the",
+          "industrial",
+          "designer",
+          "'s",
+          "opinion",
+          "about",
+          "the",
+          "job",
+          "of",
+          "user",
+          "interface",
+          "designer",
+          "when",
+          "discussing",
+          "the",
+          "work",
+          "division",
+          "?"
+        ],
+        "pos_id": [
+          45,
+          39,
+          12,
+          17,
+          23,
+          28,
+          23,
+          16,
+          12,
+          23,
+          16,
+          23,
+          23,
+          23,
+          47,
+          40,
+          12,
+          23,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ],
+        "relevant_text_span": [
+          [
+            "89",
+            "100"
+          ]
+        ]
+      },
+      "answer": {
+        "word": [
+          "Industrial",
+          "designer",
+          "thought",
+          "user",
+          "interface",
+          "designer",
+          "'s",
+          "job",
+          "was",
+          "to",
+          "focus",
+          "on",
+          "the",
+          "relation",
+          "between",
+          "the",
+          "users",
+          "and",
+          "the",
+          "remote",
+          "control",
+          "and",
+          "decide",
+          "how",
+          "the",
+          "object",
+          "looks",
+          "\u2013",
+          "for",
+          "example",
+          ",",
+          "where",
+          "the",
+          "button",
+          "would",
+          "be",
+          "."
+        ],
+        "pos_id": [
+          17,
+          23,
+          39,
+          23,
+          24,
+          23,
+          28,
+          23,
+          39,
+          36,
+          38,
+          16,
+          12,
+          23,
+          16,
+          12,
+          26,
+          10,
+          12,
+          17,
+          23,
+          10,
+          38,
+          47,
+          12,
+          23,
+          43,
+          7,
+          16,
+          23,
+          3,
+          47,
+          12,
+          23,
+          21,
+          38,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    },
+    {
+      "query": {
+        "word": [
+          "What",
+          "was",
+          "the",
+          "conclusion",
+          "of",
+          "the",
+          "discussion",
+          "about",
+          "the",
+          "difference",
+          "between",
+          "the",
+          "industrial",
+          "designer",
+          "and",
+          "user",
+          "interface",
+          "designer",
+          "?"
+        ],
+        "pos_id": [
+          45,
+          39,
+          12,
+          23,
+          16,
+          12,
+          23,
+          16,
+          12,
+          23,
+          16,
+          12,
+          17,
+          23,
+          10,
+          23,
+          23,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ],
+        "relevant_text_span": [
+          [
+            "71",
+            "104"
+          ]
+        ]
+      },
+      "answer": {
+        "word": [
+          "Industrial",
+          "Designer",
+          "would",
+          "design",
+          "the",
+          "functions",
+          "and",
+          "figure",
+          "out",
+          "the",
+          "industrial",
+          "way",
+          "to",
+          "implement",
+          "it",
+          "while",
+          "the",
+          "user",
+          "interface",
+          "designer",
+          "'s",
+          "job",
+          "was",
+          "to",
+          "decide",
+          "how",
+          "the",
+          "object",
+          "looked",
+          ".",
+          "In",
+          "short",
+          ",",
+          "the",
+          "two",
+          "were",
+          "like",
+          "the",
+          "inside",
+          "and",
+          "the",
+          "outside",
+          "."
+        ],
+        "pos_id": [
+          17,
+          23,
+          21,
+          38,
+          12,
+          26,
+          10,
+          38,
+          34,
+          12,
+          17,
+          23,
+          36,
+          38,
+          29,
+          16,
+          12,
+          23,
+          23,
+          23,
+          28,
+          23,
+          39,
+          36,
+          38,
+          47,
+          12,
+          23,
+          39,
+          6,
+          16,
+          17,
+          3,
+          12,
+          11,
+          39,
+          16,
+          12,
+          23,
+          10,
+          12,
+          23,
+          6
+        ],
+        "ent_id": [
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          6,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73,
+          73
+        ]
+      }
+    }
+  ]
+}
