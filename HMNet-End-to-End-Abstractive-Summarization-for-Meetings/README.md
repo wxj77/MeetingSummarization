@@ -18,8 +18,17 @@ Implements the model described in the following paper [End-to-End Abstractive Su
 (When using a role vector, performance was lower than not utilizing role vector. So please do not hesitate to advise me about this.)
 ```
 
+### Preparation
+ 
+```
+1. Switch into the folder secondary_drive/HMNet-End-to-End-Abstractive-Summarization-for-Meetings
+2. Run conda activate hmnet-simplified-new
+(When using a role vector, performance was lower than not utilizing role vector. So please do not hesitate to advise me about this.)
+```
+
 ### Train
 ```
+Adjust the hyperparameters in config/hparams.py
 python main.py --mode train --save_path path_to_save_the_model
 ```
 
