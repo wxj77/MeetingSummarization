@@ -26,6 +26,7 @@ python main.py --mode train --save_path path_to_save_the_model
 ### Evaluation
 ```
 python main.py --mode eval --model_path trained_model_path --gen_max_length 500
+[Andreas]: In order to just run the latest checkpoint, adjust the evaluation loop in main.py. E.g. if you trained with 200 epochs, change the loop to for i in range(int(200), 201): to just load the 200th checkpoint.
 ```
 
 | Epoch | Rouge-1 | Rouge-2 | Rouge-L |
