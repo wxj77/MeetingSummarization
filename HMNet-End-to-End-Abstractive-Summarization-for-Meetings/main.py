@@ -62,8 +62,12 @@ def evaluate_model(args):
     model_path = args.model_path
     if model_path == '':
         raise ValueError('Must provide model_path !')
+    print("model path")
+    print(model_path)
     save_dirpath =  '/'.join(model_path.split('/')[:-1])
     save_dirpath = save_dirpath + '/'
+    print("save dir path")
+    print(save_dirpath)
     hparams = hparams._replace(save_dirpath=save_dirpath)
 
     # gen_max_length
@@ -76,8 +80,10 @@ def evaluate_model(args):
     epoch = hparams.start_eval_epoch
 
     print('\n ========= [Evaluation Start Epoch: ', epoch, ']================== ')
-    for i in range(int(epoch), 100):
+    for i in range(int(200), 201):
         load_pthpath = '/'.join(model_path.split('/')[:-1]) + '/checkpoint_' + str(i) + '.pth'
+        print("Load pthpath")
+        print(load_pthpath)
         hparams= hparams._replace(load_pthpath=load_pthpath)
         print('hparams.load_pthpath: ', hparams.load_pthpath)
         summarization = Summarization(hparams, mode='eval')

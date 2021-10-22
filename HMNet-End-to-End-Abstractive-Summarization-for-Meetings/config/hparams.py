@@ -19,8 +19,8 @@ PARAMS = defaultdict(
     vocab_word_path='checkpoints/vocab_word',
     # Training Hyperparemter
     batch_size=1,
-    num_epochs=2,
-    start_eval_epoch=3,
+    num_epochs=200,
+    start_eval_epoch=99,
     fintune_word_embedding=True,
     # Transformer
     embedding_size_word=300,

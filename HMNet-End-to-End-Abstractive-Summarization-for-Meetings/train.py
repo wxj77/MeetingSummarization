@@ -16,6 +16,8 @@ from predictor import Predictor
 class Summarization(object):
     def __init__(self, hparams, mode='train'):
         self.hparams = hparams
+        print("hyperparameters summarization")
+        print(self.hparams)
         self._logger = logging.getLogger(__name__)
         print('self.hparams:', self.hparams)
         self.logger = logging.getLogger(__name__)

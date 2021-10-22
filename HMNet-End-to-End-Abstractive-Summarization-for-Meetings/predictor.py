@@ -90,7 +90,8 @@ class Predictor(object):
         #     self.model.module.load_state_dict(model_state_dict)
         # else:
         #     self.model.load_state_dict(model_state_dict, strict=True)
-
+        print("eval_path in evaluate")
+        print(eval_path)
         with torch.no_grad():
             cand_list = []
             ref_list = []
@@ -246,10 +247,18 @@ class Predictor(object):
             select_indices = batch_index.view(-1)
             #print(alive_seq)
             # Append last prediction.
-            print(select_indices.dtype)
+            #print(select_indices.dtype)
+            # Changed Andreas. indices has dtype float, needs to be int
+            
+            select_indices_int = select_indices.int()
             alive_seq = torch.cat(
-                [alive_seq.index_select(0, select_indices),
+                [alive_seq.index_select(0, select_indices_int),
                  topk_ids.view(-1, 1)], -1)
+            
+            # Old code before changes
+            #alive_seq = torch.cat(
+            #    [alive_seq.index_select(0, select_indices),
+            #     topk_ids.view(-1, 1)], -1)
 
             is_finished = topk_ids.eq(self.end_token_id)
 
@@ -292,10 +301,12 @@ class Predictor(object):
 
             # Reorder states.
             select_indices = batch_index.view(-1)
-            word_level_memory_beam = word_level_memory_beam.index_select(0, select_indices)
-            turn_level_memory_beam = turn_level_memory_beam.index_select(0, select_indices)
+            select_indices_int = select_indices.int()
+            # In the two folloing lines, changed to select_indices_int as select_indices is float and results in error in current pytorch version
+            word_level_memory_beam = word_level_memory_beam.index_select(0, select_indices_int)
+            turn_level_memory_beam = turn_level_memory_beam.index_select(0, select_indices_int)
             decoder_state.map_batch_fn(
-                lambda state, dim: state.index_select(dim, select_indices))
+                lambda state, dim: state.index_select(dim, select_indices_int))
 
         preds = results['predictions'][0][0]
         summary = self.get_summaries(preds)
