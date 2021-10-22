@@ -51,11 +51,18 @@ class Summarization(object):
         self.train_dataset = AMIDataset(self.hparams, type='train')
         self.train_dataloader = DataLoader(
             self.train_dataset,
-            batch_size=self.hparams.batch_size,
+            batch_size=1,
             num_workers=self.hparams.workers,
             shuffle=True,
             drop_last=True
         )
+        #self.train_dataloader = DataLoader(
+        #    self.train_dataset,
+        #    batch_size=self.hparams.batch_size,
+        #    num_workers=self.hparams.workers,
+        #    shuffle=True,
+        #    drop_last=True
+        #)
         self.vocab_word = self.train_dataset.vocab_word
         self.vocab_role = self.train_dataset.vocab_role
         self.vocab_pos = self.train_dataset.vocab_pos
@@ -85,6 +92,7 @@ class Summarization(object):
 
         # Use Multi-GPUs
         if -1 not in self.hparams.gpu_ids and len(self.hparams.gpu_ids) > 1:
+            print("Using Multi GPU")
             self.model = nn.DataParallel(self.model, self.hparams.gpu_ids)
 
         # Define Loss and Optimizer
@@ -140,6 +148,7 @@ class Summarization(object):
             self.model.train()
             tqdm_batch_iterator = tqdm(self.train_dataloader)
             for batch_idx, batch in enumerate(tqdm_batch_iterator):
+                print("batch length {}".format(len(batch)))
                 data = batch
                 dialogues_ids = data['dialogues_ids'].to(self.device)
                 pos_ids = data['pos_ids'].to(self.device)
@@ -168,6 +177,7 @@ class Summarization(object):
                     global_iteration_step, loss,
                     self.optimizer.param_groups[0]['lr'])
                 tqdm_batch_iterator.set_description(description)
+                torch.cuda.empty_cache()
 
             # # -------------------------------------------------------------------------
             # #   ON EPOCH END  (checkpointing and validation)
@@ -176,7 +186,7 @@ class Summarization(object):
             self.previous_model_path = os.path.join(self.checkpoint_manager.ckpt_dirpath, "checkpoint_%d.pth" % (epoch))
             self._logger.info(self.previous_model_path)
 
-            # torch.cuda.empty_cache()
+            torch.cuda.empty_cache()
 
             if epoch % 10 == 0 and epoch >= self.hparams.start_eval_epoch:
                 print('======= Evaluation Start Epoch: ', epoch, ' ==================')

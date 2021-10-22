@@ -29,7 +29,9 @@ class AMIDataset(Dataset):
         super().__init__()
         self.hparams = hparams
 
-        self.input_examples = torch.load(hparams.data_dir + type + '_corpus')
+        self.input_examples = torch.load(hparams.data_dir + type + "_qmsum_data_corpus")
+        #self.input_examples = torch.load(hparams.data_dir + type + "_corpus")
+        #print(self.input_examples)
 
         print('[%s] %d examples is loaded' % (type, len(self.input_examples)))
 
@@ -42,10 +44,13 @@ class AMIDataset(Dataset):
                 role = each[1]
                 sentence = ' '.join(word_pos.split('/')[0] for word_pos in each[2].split())
                 sentence = sentence.strip().lower()
-                pos_sentence = ' '.join(word_pos.split('/')[1] for word_pos in each[2].split())
+                pos_sentence = ' '.join(word_pos.split('/')[0] for word_pos in each[2].split())
                 pos_sentence = pos_sentence.strip().lower()
+                #print(pos_sentence)
                 dialogues.append({'role': role, 'sentence': sentence, 'pos_sentence': pos_sentence})
             self.data_list.append({'labels': labels, 'dialogues': dialogues})
+        
+        print("data list has {} entries".format(len(self.data_list)))
 
         if (vocab_word == None) and (vocab_role == None):
             counter, role_counter, pos_counter = self.build_counter()
@@ -82,7 +87,9 @@ class AMIDataset(Dataset):
                                      is_reference=True) #(seq_len)
 
         for turn_idx, dialogue in enumerate(dialogues):
-            # print('turn_idx: ', turn_idx)
+            #print('turn_idx: ', turn_idx)
+            #if turn_idx == 137:
+            #    print(dialogue)
             if turn_idx >= self.hparams.max_length:
                 break
             sentence = dialogue['sentence']
@@ -93,6 +100,8 @@ class AMIDataset(Dataset):
 
             tokens = self.tokenize(sentence)
             pos_tokens = self.tokenize(dialogue['pos_sentence'])
+            if dialogue["role"] == "":
+                dialogue["role"] = "unknown"
             role_tokens = self.tokenize(dialogue['role'])
 
             if len(tokens) >= self.hparams.max_length - 2:
@@ -117,6 +126,15 @@ class AMIDataset(Dataset):
         data['pos_ids'] = padded_pos_ids
         data['dialogues_lens'] = torch.tensor(dialogues_lens).long()
         data['src_masks'] = src_masks
+        
+        for counter, role_id in enumerate(role_ids):
+            if len(role_id) != 3:
+                role_id = [3, 3, 3]
+                role_ids[counter] = role_id
+        #print(role_ids)
+        #for role_id in role_ids:
+        #    print(role_id)
+        #    print(" ")
         data['role_ids'] = torch.tensor(role_ids).long()
         data['labels_ids'] = torch.tensor(labels_ids).long()
         return data
@@ -159,7 +177,7 @@ class AMIDataset(Dataset):
                 role = each[1]
                 sentence = ' '.join(word_pos.split('/')[0] for word_pos in each[2].split())
                 sentence = sentence.strip().lower()
-                pos_sentence = ' '.join(word_pos.split('/')[1] for word_pos in each[2].split())
+                pos_sentence = ' '.join(word_pos.split('/')[0] for word_pos in each[2].split())
                 pos_sentence = pos_sentence.strip().lower()
                 dialogues.append({'role': role, 'sentence': sentence, 'pos_sentence': pos_sentence})
             augmented_data_list.append({'labels': labels, 'dialogues': dialogues})
