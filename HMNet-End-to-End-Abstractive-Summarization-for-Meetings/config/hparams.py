@@ -10,7 +10,7 @@ PARAMS = defaultdict(
     device='cuda',
     #device='cpu',
     workers=24,
-    gpu_ids=[0],
+    gpu_ids=[0, 1, 2, 3],
     data_dir='data/',
     save_dirpath='save_path',
     use_role=False,
@@ -19,8 +19,8 @@ PARAMS = defaultdict(
     vocab_word_path='checkpoints/vocab_word',
     # Training Hyperparemter
     batch_size=1,
-    num_epochs=200,
-    start_eval_epoch=99,
+    num_epochs=100,
+    start_eval_epoch=20,
     fintune_word_embedding=True,
     # Transformer
     embedding_size_word=300,
