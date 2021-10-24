@@ -102,7 +102,7 @@ def main():
                         help='Include topics/queries in generated json files')
     parser.add_argument('--max_files', type=int, action='store', default = 10000000, help="Maximum number of files to process")                    
     args = parser.parse_args()
-    assert args.mode in ['train', 'val']
+    assert args.mode in ['train', 'val', 'test']
     #print(args.include_queries)
     #print(args.mode)
     if args.include_queries == "True":
@@ -118,6 +118,13 @@ def main():
     elif args.mode == "val" and args.include_queries == False:
         input_dir = "data/ALL/val"
         output_dir = "data/ALL/val_hmnet"
+    elif args.mode == "test" and args.include_queries == True:
+        #raise NotImplementedError
+        input_dir = "data/ALL/test"
+        output_dir = "data/ALL/test_hmnet_with_queries"
+    elif args.mode == "test" and args.include_queries == False:
+        input_dir = "data/ALL/val"
+        output_dir = "data/ALL/test_hmnet"
     else:
         #raise NotImplementedError
         input_dir = "data/ALL/val"
