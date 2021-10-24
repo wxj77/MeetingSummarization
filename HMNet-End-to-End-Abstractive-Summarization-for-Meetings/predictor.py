@@ -97,20 +97,21 @@ class Predictor(object):
             for batch_idx, batch in enumerate(tqdm(test_dataloader)):
 
                 data = batch
-                dialogues_ids = data['dialogues_ids'].to(self.device)
-                pos_ids = data['pos_ids'].to(self.device)
-                labels_ids = data['labels_ids'].to(self.device)  # [batch, tgt_seq_len]
-                src_masks = data['src_masks'].to(self.device)
-                role_ids = data['role_ids'].to(self.device)
+                if 'dialogues_ids' in data:
+                    dialogues_ids = data['dialogues_ids'].to(self.device)
+                    pos_ids = data['pos_ids'].to(self.device)
+                    labels_ids = data['labels_ids'].to(self.device)  # [batch, tgt_seq_len]
+                    src_masks = data['src_masks'].to(self.device)
+                    role_ids = data['role_ids'].to(self.device)
 
-                reference_summaries = self.get_summaries(labels_ids[0])
-                reference_summaries = reference_summaries.replace('<BEGIN>', '').replace('<END>', '')
+                    reference_summaries = self.get_summaries(labels_ids[0])
+                    reference_summaries = reference_summaries.replace('<BEGIN>', '').replace('<END>', '')
 
-                generated_summaries = self.inference(inputs=dialogues_ids, src_masks=src_masks,
+                    generated_summaries = self.inference(inputs=dialogues_ids, src_masks=src_masks,
                                                                role_ids=role_ids, pos_ids=pos_ids)
 
-                cand_list.append(generated_summaries)
-                ref_list.append(reference_summaries)
+                    cand_list.append(generated_summaries)
+                    ref_list.append(reference_summaries)
 
             results_dict = compute_rouge_scores(cand_list, ref_list)
             print('[ROUGE]: ', results_dict)

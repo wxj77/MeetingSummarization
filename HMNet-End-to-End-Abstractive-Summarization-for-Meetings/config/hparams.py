@@ -9,7 +9,7 @@ PARAMS = defaultdict(
     # Environment
     device='cuda',
     # device='cpu',
-    workers=24,
+    workers=1,
     gpu_ids=[0],
     data_dir='data/',
     save_dirpath='',
@@ -19,7 +19,7 @@ PARAMS = defaultdict(
     vocab_word_path='checkpoints/vocab_word',
     # Training Hyperparemter
     batch_size=1,
-    num_epochs=3,
+    num_epochs=100,
     start_eval_epoch=99,
     fintune_word_embedding=True,
     # Transformer
@@ -44,6 +44,6 @@ PARAMS = defaultdict(
     # Decoding
     beam_size=12,
     blook_trigram=True,
-    model_name="model_original",
-    max_batch_numbers_per_epoch = 10
+    model_name="qmsumallqueries",
+    max_batch_numbers_per_epoch = 16
 )
