@@ -5,11 +5,14 @@ import json
 import os
 import torch
 
-input_path = "/home/ubuntu/secondary_drive/MeetingSummarization/qmsum_data/data/ALL/test"
-output_path = "/home/ubuntu/secondary_drive/MeetingSummarization/HMNet-End-to-End-Abstractive-Summarization-for-Meetings/data/test_qmsum_data_corpus"
+input_path = "/home/ubuntu/secondary_drive/MeetingSummarization/qmsum_data/data/ALL/train"
+output_path = "/home/ubuntu/secondary_drive/MeetingSummarization/HMNet-End-to-End-Abstractive-Summarization-for-Meetings/data/train_qmsum_data_corpus"
 dict_dataset ={}
-
+counter_datasets = 0
 for file in os.listdir(input_path):
+    counter_datasets += 1
+    if counter_datasets > 200:
+        break
     fields = file.split(".json")
     input_file = open(input_path + "/" + file, "r")
     file_content = input_file.read()

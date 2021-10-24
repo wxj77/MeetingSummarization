@@ -29,8 +29,8 @@ class AMIDataset(Dataset):
         super().__init__()
         self.hparams = hparams
 
-        self.input_examples = torch.load(hparams.data_dir + type + '_corpus')
-
+        #self.input_examples = torch.load(hparams.data_dir + type + '_corpus')
+        self.input_examples = torch.load(hparams.data_dir + type + "_qmsum_data_queries"+'_corpus')
         print('[%s] %d examples is loaded' % (type, len(self.input_examples)))
 
         self.data_list = []
@@ -42,9 +42,13 @@ class AMIDataset(Dataset):
                 role = each[1]
                 sentence = ' '.join(word_pos.split('/')[0] for word_pos in each[2].split())
                 sentence = sentence.strip().lower()
-                pos_sentence = ' '.join(word_pos.split('/')[1] for word_pos in each[2].split())
+                pos_sentence = ' '.join(word_pos.split('/')[0] for word_pos in each[2].split())
                 pos_sentence = pos_sentence.strip().lower()
-                dialogues.append({'role': role, 'sentence': sentence, 'pos_sentence': pos_sentence})
+                sentence = sentence.strip()
+                pos_sentence = pos_sentence.strip()
+                role = role.strip()
+                if role != "" and sentence != "" and pos_sentence != "":
+                    dialogues.append({'role': role, 'sentence': sentence, 'pos_sentence': pos_sentence})
             self.data_list.append({'labels': labels, 'dialogues': dialogues})
 
         if (vocab_word == None) and (vocab_role == None):
@@ -80,9 +84,14 @@ class AMIDataset(Dataset):
 
         labels_ids = self.tokens2ids(label_tokens, self.vocab_word.token2id,
                                      is_reference=True) #(seq_len)
-
+        
+        #print("Dialogue 17")
+        #print(dialogues[17])
         for turn_idx, dialogue in enumerate(dialogues):
-            # print('turn_idx: ', turn_idx)
+            #print('turn_idx: ')
+            #print(turn_idx)
+            #print("dialogue")
+            #print(dialogue)
             if turn_idx >= self.hparams.max_length:
                 break
             sentence = dialogue['sentence']
@@ -92,6 +101,12 @@ class AMIDataset(Dataset):
             sentence = sentence.replace('. .', '.').replace(', ,', ',')
 
             tokens = self.tokenize(sentence)
+            #print("dialogue")
+            #print(dialogue)
+            #print("sentence")
+            #print(sentence)
+            #print("tokens")
+            #print(tokens)
             pos_tokens = self.tokenize(dialogue['pos_sentence'])
             role_tokens = self.tokenize(dialogue['role'])
 
@@ -102,29 +117,56 @@ class AMIDataset(Dataset):
             token_ids = self.tokens2ids(tokens, self.vocab_word.token2id)
             pos_token_ids = self.tokens2ids(pos_tokens, self.vocab_pos.token2id)
             role_token_ids = self.tokens2ids(role_tokens, self.vocab_role.token2id, is_role=True)
-
+            
+            #if len(token_ids) == 0 or len(pos_token_ids) == 0 or len(role_token_ids) == 0:
+            #    print("empty lists detected")
+            #if len(token_ids) > 0 and len(pos_token_ids) > 0 and len(role_token_ids) > 0:
             dialogues_ids.append(token_ids)
             pos_ids.append(pos_token_ids)
             role_ids.append(role_token_ids)
+        #print(dialogues_ids)
+        #print("dialogue_ids")
+        #print(dialogues_ids)
+        #print("padding dialogue ids")
+        #print(dialogues_ids)
+        try:
+            padded_dialogues, dialogues_lens, src_masks = self.pad_sequence(dialogues_ids, "dialogues")
+            padded_pos_ids, _, _ = self.pad_sequence(pos_ids, "positions")
+        
+            for counter, role_id in enumerate(role_ids):
+            #print(role_id)
+                if len(role_id) != 9:
+                    role_id = [3, 3, 3, 3, 3, 3, 3, 3, 3]
+                    role_ids[counter] = role_id
 
-        padded_dialogues, dialogues_lens, src_masks = self.pad_sequence(dialogues_ids)
-        padded_pos_ids, _, _ = self.pad_sequence(pos_ids)
+            data = dict()
+            data['dialogues'] = dialogues
+            data['labels'] = labels
+            data['dialogues_ids'] = padded_dialogues
+            data['pos_ids'] = padded_pos_ids
+            data['dialogues_lens'] = torch.tensor(dialogues_lens).long()
+            data['src_masks'] = src_masks
+        #print(role_ids)
 
-        data = dict()
-        data['dialogues'] = dialogues
-        data['labels'] = labels
-        data['dialogues_ids'] = padded_dialogues
-        data['pos_ids'] = padded_pos_ids
-        data['dialogues_lens'] = torch.tensor(dialogues_lens).long()
-        data['src_masks'] = src_masks
-        data['role_ids'] = torch.tensor(role_ids).long()
-        data['labels_ids'] = torch.tensor(labels_ids).long()
-        return data
+            data['role_ids'] = torch.tensor(role_ids).long()
+            data['labels_ids'] = torch.tensor(labels_ids).long()
+            return data
+        except ValueError:
+            data = dict()
+            return data
 
-    def pad_sequence(self, seqs):
+    def pad_sequence(self, seqs, what=''):
+        #print("Padding seqs {}".format(what))
+        #print(seqs)
         lens = [len(seq) for seq in seqs]
+        #print("lens")
+        #print(lens)
         max_seq_length = max(lens)
+        #print("max seq length")
+        #print(max_seq_length)
+        
         padded_seqs = torch.zeros(len(seqs), max_seq_length).long()
+        
         for i, seq in enumerate(seqs):
             end_idx = lens[i]
             padded_seqs[i, :end_idx] = torch.LongTensor(seq[:end_idx])

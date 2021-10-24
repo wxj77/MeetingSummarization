@@ -48,6 +48,8 @@ class Summarization(object):
             self.predictor = self.build_eval_model(summary_writer=self.summary_writer)
 
     def build_dataloader(self):
+        print("Batch size")
+        print(self.hparams.batch_size)
         self.train_dataset = AMIDataset(self.hparams, type='train')
         self.train_dataloader = DataLoader(
             self.train_dataset,
@@ -137,10 +139,17 @@ class Summarization(object):
         train_begin = datetime.utcnow()  # News
         global_iteration_step = 0
         for epoch in range(self.hparams.num_epochs):
+            print("Epoch {}".format(epoch))
+            batches_processed = 0
             self.model.train()
             tqdm_batch_iterator = tqdm(self.train_dataloader)
             for batch_idx, batch in enumerate(tqdm_batch_iterator):
+                #if batches_processed + 8 > self.hparams.max_batch_numbers_per_epoch:
+                #    break
+                #print(len(batch))
                 data = batch
+                if 'dialogues_ids' not in data:
+                    continue
                 dialogues_ids = data['dialogues_ids'].to(self.device)
                 pos_ids = data['pos_ids'].to(self.device)
                 labels_ids = data['labels_ids'].to(self.device) # [batch==1, tgt_seq_len]
@@ -168,6 +177,7 @@ class Summarization(object):
                     global_iteration_step, loss,
                     self.optimizer.param_groups[0]['lr'])
                 tqdm_batch_iterator.set_description(description)
+                batches_processed += 1
 
             # # -------------------------------------------------------------------------
             # #   ON EPOCH END  (checkpointing and validation)
