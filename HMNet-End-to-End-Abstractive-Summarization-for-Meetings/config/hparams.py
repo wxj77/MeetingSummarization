@@ -19,8 +19,8 @@ PARAMS = defaultdict(
     vocab_word_path='checkpoints/vocab_word',
     # Training Hyperparemter
     batch_size=1,
-    num_epochs=100,
-    start_eval_epoch=99,
+    num_epochs=30,
+    start_eval_epoch=29,
     fintune_word_embedding=True,
     # Transformer
     embedding_size_word=300,
@@ -29,9 +29,9 @@ PARAMS = defaultdict(
     num_heads=2,
     num_hidden_layers=2,
     hidden_size=300,
-    min_length=280,
-    max_length=800,
-    gen_max_length=400,
+    min_length=100,
+    max_length=500,
+    gen_max_length=250,
     attention_key_channels=0,
     attention_value_channels=0,
     filter_size=64,
@@ -44,6 +44,6 @@ PARAMS = defaultdict(
     # Decoding
     beam_size=12,
     blook_trigram=True,
-    model_name="qmsumallqueries",
+    model_name="qmsumallqueries2",
     max_batch_numbers_per_epoch = 16
 )
