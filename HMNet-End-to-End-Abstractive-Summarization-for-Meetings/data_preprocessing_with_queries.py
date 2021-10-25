@@ -5,8 +5,8 @@ import json
 import os
 import torch
 
-input_path = "/home/ubuntu/secondary_drive/MeetingSummarization/qmsum_data/data/ALL/train"
-output_path = "/home/ubuntu/secondary_drive/MeetingSummarization/HMNet-End-to-End-Abstractive-Summarization-for-Meetings/data/train_qmsum_data_queries_corpus"
+input_path = "/home/ubuntu/secondary_drive/MeetingSummarization/qmsum_data/data/ALL/test"
+output_path = "/home/ubuntu/secondary_drive/MeetingSummarization/HMNet-End-to-End-Abstractive-Summarization-for-Meetings/data/test_qmsum_data_queries_corpus"
 dict_dataset ={}
 counter_datasets = 0
 overall_counter = 0
@@ -34,6 +34,7 @@ for file in os.listdir(input_path):
         relevant_text_span_begin = int(relevant_text_spans[0][0])
         relevant_text_span_end = int(relevant_text_spans[0][1])
         dict_dataset[id]["labels"] = answer
+        dict_dataset[id]["query"] = query
         utterance_counter = 1
         for counter, transcript in enumerate(file_content["meeting_transcripts"]):
             role = transcript["speaker"]

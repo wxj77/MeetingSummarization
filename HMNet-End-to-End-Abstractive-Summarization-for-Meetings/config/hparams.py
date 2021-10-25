@@ -13,7 +13,7 @@ PARAMS = defaultdict(
     gpu_ids=[0],
     data_dir='data/',
     save_dirpath='',
-    use_role=False,
+    use_role=True,
     use_pos=False,
     load_pthpath="",
     vocab_word_path='checkpoints/vocab_word',
@@ -44,6 +44,6 @@ PARAMS = defaultdict(
     # Decoding
     beam_size=12,
     blook_trigram=True,
-    model_name="qmsumallqueries2",
+    model_name="qmsumallqueriesemb",
     max_batch_numbers_per_epoch = 16
 )
