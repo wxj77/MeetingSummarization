@@ -30,14 +30,25 @@ class AMIDataset(Dataset):
         self.hparams = hparams
 
         #self.input_examples = torch.load(hparams.data_dir + type + '_corpus')
-        self.input_examples = torch.load(hparams.data_dir + type + "_qmsum_data_queries"+'_corpus')
+        self.input_examples = torch.load('data/train_cnn_corpus')
+        #self.input_examples = torch.load(hparams.data_dir + type + "_qmsum_data_queries"+'_corpus')
         print('[%s] %d examples is loaded' % (type, len(self.input_examples)))
 
         self.data_list = []
         for key, value in self.input_examples.items():
+            #print("key {}".format(key))
+            #print("value {}".format(value))
             texts = value['texts']
             labels = value['labels']
+            #query = value['query']
+            #query = value['query']
+            #print(query)
             dialogues = []
+            #query_sentence = ' '.join(word_pos.split('/')[0] for word_pos in query.split())
+            #query_sentence = query_sentence.strip().lower()
+            #query_pos = ' '.join(word_pos.split('/')[0] for word_pos in query.split())
+            #query_pos = query_pos.strip().lower()
+            #dialogues.append({'role': 'questioner', 'sentence': query_sentence, 'pos_sentence': query_pos})
             for each in texts:
                 role = each[1]
                 sentence = ' '.join(word_pos.split('/')[0] for word_pos in each[2].split())
