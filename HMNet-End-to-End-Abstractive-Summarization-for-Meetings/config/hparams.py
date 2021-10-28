@@ -8,7 +8,7 @@ https://arxiv.org/abs/2004.02016
 PARAMS = defaultdict(
     # Environment
     device='cuda',
-    # device='cpu',
+    #device='cpu',
     workers=1,
     gpu_ids=[0],
     data_dir='data/',
@@ -19,8 +19,9 @@ PARAMS = defaultdict(
     vocab_word_path='checkpoints/vocab_word',
     # Training Hyperparemter
     batch_size=1,
-    num_epochs=2,
-    start_eval_epoch=29,
+    num_epochs=30,
+    num_epochs_cnn = 10,
+    start_eval_epoch=100,
     fintune_word_embedding=True,
     # Transformer
     embedding_size_word=300,
@@ -44,6 +45,6 @@ PARAMS = defaultdict(
     # Decoding
     beam_size=12,
     blook_trigram=True,
-    model_name="cnn_model",
+    model_name="cnn_model_pre_trained",
     max_batch_numbers_per_epoch = 16
 )

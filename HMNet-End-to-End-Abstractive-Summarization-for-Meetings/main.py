@@ -7,6 +7,7 @@ from config.hparams import *
 from train import Summarization
 import torch
 from torch.utils.tensorboard import SummaryWriter
+import sys
 
 
 def init_logger(path):
@@ -52,6 +53,7 @@ def train_model(args):
 
     print('hparams.save_dirpath: ', hparams.save_dirpath)
     summarization = Summarization(hparams, mode='train')
+    #sys.exit()
     summarization.train()
 
 
