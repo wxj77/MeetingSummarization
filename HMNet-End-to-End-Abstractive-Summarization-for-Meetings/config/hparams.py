@@ -19,9 +19,9 @@ PARAMS = defaultdict(
     vocab_word_path='checkpoints/vocab_word',
     # Training Hyperparemter
     batch_size=1,
-    num_epochs=30,
-    num_epochs_cnn = 10,
-    start_eval_epoch=100,
+    num_epochs=1,
+    num_epochs_cnn = 1,
+    start_eval_epoch=0,
     fintune_word_embedding=True,
     # Transformer
     embedding_size_word=300,
@@ -45,6 +45,6 @@ PARAMS = defaultdict(
     # Decoding
     beam_size=12,
     blook_trigram=True,
-    model_name="cnn_model_pre_trained",
+    model_name="cnn_model_pre_trained4",
     max_batch_numbers_per_epoch = 16
 )

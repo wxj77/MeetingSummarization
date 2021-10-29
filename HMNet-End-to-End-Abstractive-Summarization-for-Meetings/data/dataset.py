@@ -25,7 +25,7 @@ class AttrDict(dict):
 
 class OverallDataset(Dataset):
     def __init__(self, hparams, type='', vocab_word=None,
-                 vocab_role=None, vocab_pos=None, max_vocab_size=50000):
+                 vocab_role=None, vocab_pos=None, max_vocab_size=100000):
         super().__init__()
         self.hparams = hparams
 
