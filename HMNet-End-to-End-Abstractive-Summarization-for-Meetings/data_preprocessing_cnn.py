@@ -13,7 +13,7 @@ overall_counter = 0
 dict_dataset = {}
 for file in os.listdir(input_path):
     counter_datasets += 1
-    if counter_datasets > 5:
+    if counter_datasets > 100:
         break
     fields = file.split(".story")
     input_file = open(input_path + "/" + file, "r")
@@ -54,7 +54,7 @@ for key in dict_dataset:
 for key in dict_dataset_clean:
     counter_dataset_entries += 1
     length_utterances = len(dict_dataset_clean[key]["texts"])
-    print(length_utterances)
+    #print(length_utterances)
    
 
 print("dataset has {} entries".format(counter_dataset_entries))

@@ -45,6 +45,6 @@ PARAMS = defaultdict(
     # Decoding
     beam_size=12,
     blook_trigram=True,
-    model_name="cnn_model_pre_trained4",
+    model_name="model100",
     max_batch_numbers_per_epoch = 16
 )
