@@ -130,6 +130,8 @@ class Predictor(object):
                     batch_counter += 1
                     if self.hparams.do_short_evaluation == True and batch_counter > 5:
                         break
+                    if self.hparams.do_medium_evaluation == True and batch_counter > 50:
+                        break
 
             results_dict = compute_rouge_scores(cand_list, ref_list)
             print('[ROUGE]: ', results_dict)

@@ -4,6 +4,9 @@
 import json
 import os
 import torch
+from gensim import corpora, models, similarities
+import jieba
+
 
 input_path = "/home/ubuntu/secondary_drive/MeetingSummarization/HMNet-End-to-End-Abstractive-Summarization-for-Meetings/cnn_raw/cnn/stories"
 output_path = "/home/ubuntu/secondary_drive/MeetingSummarization/HMNet-End-to-End-Abstractive-Summarization-for-Meetings/data/train_cnn_corpus"
@@ -18,6 +21,7 @@ for file in os.listdir(input_path):
     fields = file.split(".story")
     input_file = open(input_path + "/" + file, "r")
     id = fields[0]
+    #print(id)
     
     
     found_summary = False
@@ -45,6 +49,7 @@ for file in os.listdir(input_path):
                     answer += line + "."
     
     dict_dataset[id]["labels"] = answer
+    #print(dict_dataset[id])
 
 counter_dataset_entries = 0
 dict_dataset_clean = {}
