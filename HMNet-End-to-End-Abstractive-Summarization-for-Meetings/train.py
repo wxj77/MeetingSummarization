@@ -14,6 +14,7 @@ from models.model import SummarizationModel
 from utils.checkpointing import CheckpointManager, load_checkpoint, dump_vocab
 from predictor import Predictor
 import sys
+import random
 
 def check_if_token_in_dict(dict_tokens, word_to_find):
     found = False
@@ -120,10 +121,8 @@ class Summarization(object):
             drop_last=True
         )
         
-        self.vocab_word = self.train_dataset.vocab_word
-        if self.hparams.merge_cnn_vocab_into_qm_vocab == True:
-            print("Merging CNN vocab word")
-            self.vocab_word = merge_cnn_into_qm_sum(self.vocab_word, self.vocab_word_cnn)
+        self.vocab_word_qm = self.train_dataset.vocab_word
+        
         #print("Self vocab word")
         #print(self.vocab_word)
         #for counter, key in enumerate(self.vocab_word['token2id']):
@@ -131,16 +130,12 @@ class Summarization(object):
         #    print(self.vocab_word['token2id'][key])
         #    if counter > 10:
         #        break
-        self.vocab_role = self.train_dataset.vocab_role
-        if self.hparams.merge_cnn_vocab_into_qm_vocab == True:
-            print("Merging vocab roles")
+        self.vocab_role_qm = self.train_dataset.vocab_role
+       
            
-            self.vocab_role = merge_cnn_into_qm_sum(self.vocab_role, self.vocab_role_cnn)
-        self.vocab_pos = self.train_dataset.vocab_pos
-        if self.hparams.merge_cnn_vocab_into_qm_vocab == True:
-            print("Merging vocab positions")
         
-            self.vocab_pos = merge_cnn_into_qm_sum(self.vocab_pos, self.vocab_pos_cnn)
+        self.vocab_pos_qm = self.train_dataset.vocab_pos
+        
 
         self.test_dataset = AMIDataset(self.hparams, type='test',
                                        vocab_word=self.vocab_word, vocab_role=self.vocab_role, vocab_pos=self.vocab_pos)
@@ -164,11 +159,11 @@ class Summarization(object):
             shuffle=True,
             drop_last=True
         )
-        self.vocab_word_overall = self.train_dataset_overall.vocab_word
+        self.vocab_word = self.train_dataset_overall.vocab_word
         #print("Len vocab word")
         #print(len(self.vocab_word))
-        self.vocab_role_overall = self.train_dataset_overall.vocab_role
-        self.vocab_pos_overall = self.train_dataset_overall.vocab_pos
+        self.vocab_role = self.train_dataset_overall.vocab_role
+        self.vocab_pos = self.train_dataset_overall.vocab_pos
 
         
 
@@ -272,6 +267,9 @@ class Summarization(object):
         return predictor
 
     def train(self):
+        for key in self.vocab_word:
+            print("key")
+            print(key)
         train_begin = datetime.utcnow()  # News
         global_iteration_step = 0
         # Begin Pre-Training
@@ -308,10 +306,26 @@ class Summarization(object):
 
                 logits = self.model(inputs=dialogues_ids, targets=labels_ids[:, :-1],  # before <END> token
                                     src_masks=src_masks, role_ids=role_ids, pos_ids=pos_ids) # [batch x tgt_seq_len, vocab_size]
-
+                                    
+            #    if self.hparams.show_randomly_debugging_messages == True:
+            #        if random.randint(1,20) == 20:
+            #            print("Showing label_ids targets as generated summary")
+            #            targets = labels_ids[:, :-1]
+            #            targets = targets[0]
+            #            summary = ""
+            #            for token_id in targets:
+            #                if token_id in self.vocab_word['id2token']:
+            #                    token = self.vocab_word['id2token'][token_id]
+            #                else:
+            #                    token = "Unknown"
+            #                summary += token
+            #                summary += " "
+            #            print(summary)
+                        #print(targets)
+                        #print(labels_ids[:, :-1])
                 labels_ids = labels_ids[:, 1:]
                 labels_ids = labels_ids.view(labels_ids.shape[0] * labels_ids.shape[1]) # [batch x tgt_seq_len]
-
+                
                 loss = self.criterion(logits, labels_ids)
                 loss.backward()
 
@@ -328,6 +342,9 @@ class Summarization(object):
                     self.optimizer.param_groups[0]['lr'])
                 tqdm_batch_iterator.set_description(description)
                 batches_processed += 1
+                if self.hparams.show_generated_summaries_cnn == True:
+                    self.predictor.evaluate(test_dataloader=self.train_dataloader_cnn, epoch=epoch,
+                                        eval_path=None)
             
             if epoch >= self.hparams.start_eval_epoch_cnn:
                 print('======= Evaluation Start Epoch: ', epoch, ' ==================')
@@ -371,6 +388,21 @@ class Summarization(object):
                 
                 logits = self.model(inputs=dialogues_ids, targets=labels_ids[:, :-1],  # before <END> token
                                     src_masks=src_masks, role_ids=role_ids, pos_ids=pos_ids) # [batch x tgt_seq_len, vocab_size]
+
+                #if self.hparams.show_randomly_debugging_messages == True:
+                #    if random.randint(1,20) == 20:
+                #        print("Showing label_ids targets as generated summary")
+                #        targets = labels_ids[:, :-1]
+                #        targets = targets[0]
+                #        summary = ""
+                #        for token_id in targets:
+                #            if token_id in self.vocab_word['id2token']:
+                #                token = self.vocab_word['id2token'][token_id]
+                #            else:
+                #                token = "Unknown"
+                #            summary += token
+                #            summary += " "
+                #        print(summary)                                    
 
                 labels_ids = labels_ids[:, 1:]
                 labels_ids = labels_ids.view(labels_ids.shape[0] * labels_ids.shape[1]) # [batch x tgt_seq_len]

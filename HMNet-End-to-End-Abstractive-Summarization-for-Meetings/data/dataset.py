@@ -14,6 +14,10 @@ UNK = 3
 BEGIN = 4
 END = 5
 
+vocab_word_overall = None
+vocab_pos_overall = None
+vocab_role_overall = None
+
 
 class AttrDict(dict):
     """ Access dictionary keys like attribute
@@ -28,6 +32,9 @@ class OverallDataset(Dataset):
                  vocab_role=None, vocab_pos=None, max_vocab_size=100000):
         super().__init__()
         self.hparams = hparams
+        global vocab_word_overall
+        global vocab_pos_overall
+        global vocab_role_overall
 
         self.input_examples = torch.load(hparams.data_dir + type + "_qmsum_data_queries"+'_corpus')
         self.input_examples_cnn = torch.load("data/train_cnn_corpus")
@@ -107,10 +114,16 @@ class OverallDataset(Dataset):
             self.vocab_word = self.build_vocab(counter, max_vocab_size, type='word')
             self.vocab_role = self.build_vocab(role_counter, max_vocab_size, type='role')
             self.vocab_pos = self.build_vocab(pos_counter, max_vocab_size, type='pos')
+            vocab_word_overall = self.vocab_word
+            vocab_role_overall = self.vocab_role
+            vocab_pos_overall = self.vocab_pos
         else:
-            self.vocab_word = vocab_word
-            self.vocab_role = vocab_role
-            self.vocab_pos = vocab_pos
+            self.vocab_word = vocab_word_overall
+            self.vocab_role = vocab_role_overall
+            self.vocab_pos = vocab_pos_overall
+            vocab_word_overall = self.vocab_word
+            vocab_role_overall = self.vocab_role
+            vocab_pos_overall = self.vocab_pos
 
     def __len__(self):
         return len(self.data_list)
@@ -323,6 +336,9 @@ class AMIDataset(Dataset):
                  vocab_role=None, vocab_pos=None, max_vocab_size=50000):
         super().__init__()
         self.hparams = hparams
+        global vocab_word_overall
+        global vocab_pos_overall
+        global vocab_role_overall
 
         #self.input_examples = torch.load(hparams.data_dir + type + '_corpus')
         #self.input_examples = torch.load('data/train_cnn_corpus')
@@ -356,16 +372,20 @@ class AMIDataset(Dataset):
                 if role != "" and sentence != "" and pos_sentence != "":
                     dialogues.append({'role': role, 'sentence': sentence, 'pos_sentence': pos_sentence})
             self.data_list.append({'labels': labels, 'dialogues': dialogues})
-
-        if (vocab_word == None) and (vocab_role == None):
-            counter, role_counter, pos_counter = self.build_counter()
-            self.vocab_word = self.build_vocab(counter, max_vocab_size, type='word')
-            self.vocab_role = self.build_vocab(role_counter, max_vocab_size, type='role')
-            self.vocab_pos = self.build_vocab(pos_counter, max_vocab_size, type='pos')
-        else:
-            self.vocab_word = vocab_word
-            self.vocab_role = vocab_role
-            self.vocab_pos = vocab_pos
+        
+        self.vocab_word = vocab_word_overall
+        self.vocab_pos = vocab_pos_overall
+        self.vocab_role = vocab_role_overall
+        
+        #if (vocab_word == None) and (vocab_role == None):
+        #    counter, role_counter, pos_counter = self.build_counter()
+        #    self.vocab_word = self.build_vocab(counter, max_vocab_size, type='word')
+        #    self.vocab_role = self.build_vocab(role_counter, max_vocab_size, type='role')
+        #    self.vocab_pos = self.build_vocab(pos_counter, max_vocab_size, type='pos')
+        #else:
+        #    self.vocab_word = vocab_word
+        #    self.vocab_role = vocab_role
+        #    self.vocab_pos = vocab_pos
 
     def __len__(self):
         return len(self.data_list)
@@ -577,6 +597,11 @@ class CNNDataset(Dataset):
                  vocab_role=None, vocab_pos=None, max_vocab_size=50000):
         super().__init__()
         self.hparams = hparams
+        global vocab_word_overall
+        global vocab_pos_overall
+        global vocab_role_overall
+        print("Len vocab overall init CNN {}".format(len(vocab_word_overall['token2id'])))
+        print("Len pos overall init CNN {}".format(len(vocab_pos_overall['token2id'])))
 
         #self.input_examples = torch.load(hparams.data_dir + type + '_corpus')
         self.input_examples = torch.load('data/train_cnn_corpus')
@@ -610,16 +635,21 @@ class CNNDataset(Dataset):
                 if role != "" and sentence != "" and pos_sentence != "":
                     dialogues.append({'role': role, 'sentence': sentence, 'pos_sentence': pos_sentence})
             self.data_list.append({'labels': labels, 'dialogues': dialogues})
+        
+        self.vocab_word = vocab_word_overall
+        self.vocab_pos = vocab_pos_overall
+        self.vocab_role = vocab_role_overall
+        print("Len vocab local init CNN {}".format(len(self.vocab_word['token2id'])))
 
-        if (vocab_word == None) and (vocab_role == None):
-            counter, role_counter, pos_counter = self.build_counter()
-            self.vocab_word = self.build_vocab(counter, max_vocab_size, type='word')
-            self.vocab_role = self.build_vocab(role_counter, max_vocab_size, type='role')
-            self.vocab_pos = self.build_vocab(pos_counter, max_vocab_size, type='pos')
-        else:
-            self.vocab_word = vocab_word
-            self.vocab_role = vocab_role
-            self.vocab_pos = vocab_pos
+       # if (vocab_word == None) and (vocab_role == None):
+    #        counter, role_counter, pos_counter = self.build_counter()
+     #       self.vocab_word = self.build_vocab(counter, max_vocab_size, type='word')
+     #       self.vocab_role = self.build_vocab(role_counter, max_vocab_size, type='role')
+     #       self.vocab_pos = self.build_vocab(pos_counter, max_vocab_size, type='pos')
+     #   else:
+     #       self.vocab_word = vocab_word
+     #       self.vocab_role = vocab_role
+     #       self.vocab_pos = vocab_pos
 
     def __len__(self):
         return len(self.data_list)

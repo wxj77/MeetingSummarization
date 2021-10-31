@@ -7,6 +7,7 @@ from data.dataset import *
 import time
 from tqdm import tqdm
 from utils.utils import compute_rouge_scores
+import random
 
 
 class Predictor(object):
@@ -68,11 +69,13 @@ class Predictor(object):
         return logits, probs
 
     def get_summaries(self, idxs):
+       # print("get_summaries called")
         tokens = [self.vocab_word.id2token[idx.item()] for idx in idxs]
         summary = ' '.join(tokens)
         return summary
 
     def get_summaries_from_logits(self, logits):
+        #print("get summaries from logits called")
         # logits : [batch x tgt_seq_len, vocab_size]
         softmax = nn.LogSoftmax(dim=-1)
         probs = softmax(logits)
@@ -107,9 +110,20 @@ class Predictor(object):
 
                     reference_summaries = self.get_summaries(labels_ids[0])
                     reference_summaries = reference_summaries.replace('<BEGIN>', '').replace('<END>', '')
+                    if self.hparams.show_generated_summaries_eval == True:
+                        print("Reference Summaries")
+                        print(reference_summaries)
+                        print("\n\n")
 
                     generated_summaries = self.inference(inputs=dialogues_ids, src_masks=src_masks,
                                                                role_ids=role_ids, pos_ids=pos_ids)
+                    
+                    if self.hparams.show_generated_summaries_eval == True:
+                        print("Generated Summaries")
+                        print(generated_summaries)
+                        print("\n\n")
+                                                               
+                    
 
                     cand_list.append(generated_summaries)
                     ref_list.append(reference_summaries)
@@ -126,6 +140,7 @@ class Predictor(object):
                 self.summary_writer.add_scalar('test/rouge-FL', results_dict['rouge_l_f_score'], epoch)
 
     def inference(self, inputs, src_masks, role_ids=None, pos_ids=None):
+        #print("inference called")
         # Give full probability to the first beam on the first step.
         topk_log_probs = (
             torch.tensor([0.0] + [float("-inf")] * (self.beam_size - 1),

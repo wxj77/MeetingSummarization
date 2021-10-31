@@ -19,9 +19,9 @@ PARAMS = defaultdict(
     vocab_word_path='checkpoints/vocab_word',
     # Training Hyperparemter
     batch_size=1,
-    num_epochs=30,
-    num_epochs_cnn = 5,
-    start_eval_epoch=29,
+    num_epochs=3,
+    num_epochs_cnn = 1,
+    start_eval_epoch=2,
     start_eval_epoch_cnn = 10,
     fintune_word_embedding=True,
     # Transformer
@@ -46,8 +46,11 @@ PARAMS = defaultdict(
     # Decoding
     beam_size=12,
     blook_trigram=True,
-    model_name="qmsumqueriescnnwithmerge",
+    model_name="test",
     max_batch_numbers_per_epoch = 16,
-    do_short_evaluation=False,
-    merge_cnn_vocab_into_qm_vocab=True
+    do_short_evaluation=True,
+    merge_cnn_vocab_into_qm_vocab=False,
+    show_randomly_debugging_messages=True,
+    show_generated_summaries_cnn = False,
+    show_generated_summaries_eval = False
 )
