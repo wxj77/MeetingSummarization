@@ -6,6 +6,7 @@ from rouge import Rouge
 
 
 def load_spacy_glove_embedding(spacy_nlp, vocab):
+    print("load spacy glove called")
     vocab_size = len(vocab.token2id)
     # print('vocab_size in function: ', vocab_size)
     word_vec_size = spacy_nlp.vocab.vectors_length

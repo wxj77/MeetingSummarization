@@ -15,6 +15,52 @@ from utils.checkpointing import CheckpointManager, load_checkpoint, dump_vocab
 from predictor import Predictor
 import sys
 
+def check_if_token_in_dict(dict_tokens, word_to_find):
+    found = False
+    for word in dict_tokens['token2id']:
+        if word == word_to_find:
+            return True
+    
+    return False
+
+def merge_cnn_into_qm_sum(dict_tokens, dict_tokens_cnn):
+    """
+    Merge CNN tokens into main tokens (based on qmsum) if they don't exist yet in main token dict
+    QMSum train has ~30k unique tokens, to be on the safe side, we start adding CNN starting with token 100k
+    """
+    print("Starting merging")
+    number_tokens_cnn = 0
+    for word in dict_tokens_cnn['token2id']:
+        number_tokens_cnn += 1
+    print("CNN has {} tokens".format(number_tokens_cnn))
+    # First identify the last existing id
+    max_token_id = 1
+    for id in dict_tokens['id2token']:
+        if id > max_token_id:
+            max_token_id = id
+    
+    # Create a set to check for membership
+    existing_entries = set()
+    for word in dict_tokens['token2id']:
+        existing_entries.add(word)
+    print("max token id is {}".format(max_token_id))
+    token_counter = max_token_id + 1
+    for word in dict_tokens_cnn['token2id']:
+        #is_already_in_dict = check_if_token_in_dict(dict_tokens, word)
+        if word not in existing_entries:
+            dict_tokens['token2id'][word] = token_counter
+            dict_tokens['id2token'][token_counter] = word
+            existing_entries.add(word)
+            token_counter += 1
+        
+        #if token_counter == 30000:
+        #    return dict_tokens
+    final_size = 0
+    for word in dict_tokens['token2id']:
+        final_size += 1
+    print("Merging finished with final size {}".format(final_size))
+    return dict_tokens
+
 
 class Summarization(object):
     def __init__(self, hparams, mode='train'):
@@ -35,6 +81,7 @@ class Summarization(object):
         #sys.exit()
         self.build_dataloader_cnn()
         self.build_dataloader()
+       
         print("DAtaloaders finished")
         
         # Merge self.vocab_word_cnn, self.vocab_word_qmsum
@@ -72,9 +119,28 @@ class Summarization(object):
             shuffle=True,
             drop_last=True
         )
-        self.vocab_word_qmsum = self.train_dataset.vocab_word
-        self.vocab_role_qmsum = self.train_dataset.vocab_role
-        self.vocab_pos_qmsum = self.train_dataset.vocab_pos
+        
+        self.vocab_word = self.train_dataset.vocab_word
+        if self.hparams.merge_cnn_vocab_into_qm_vocab == True:
+            print("Merging CNN vocab word")
+            self.vocab_word = merge_cnn_into_qm_sum(self.vocab_word, self.vocab_word_cnn)
+        #print("Self vocab word")
+        #print(self.vocab_word)
+        #for counter, key in enumerate(self.vocab_word['token2id']):
+        #    print(key)
+        #    print(self.vocab_word['token2id'][key])
+        #    if counter > 10:
+        #        break
+        self.vocab_role = self.train_dataset.vocab_role
+        if self.hparams.merge_cnn_vocab_into_qm_vocab == True:
+            print("Merging vocab roles")
+           
+            self.vocab_role = merge_cnn_into_qm_sum(self.vocab_role, self.vocab_role_cnn)
+        self.vocab_pos = self.train_dataset.vocab_pos
+        if self.hparams.merge_cnn_vocab_into_qm_vocab == True:
+            print("Merging vocab positions")
+        
+            self.vocab_pos = merge_cnn_into_qm_sum(self.vocab_pos, self.vocab_pos_cnn)
 
         self.test_dataset = AMIDataset(self.hparams, type='test',
                                        vocab_word=self.vocab_word, vocab_role=self.vocab_role, vocab_pos=self.vocab_pos)
@@ -98,11 +164,11 @@ class Summarization(object):
             shuffle=True,
             drop_last=True
         )
-        self.vocab_word = self.train_dataset_overall.vocab_word
-        print("Len vocab word")
-        print(len(self.vocab_word))
-        self.vocab_role = self.train_dataset_overall.vocab_role
-        self.vocab_pos = self.train_dataset_overall.vocab_pos
+        self.vocab_word_overall = self.train_dataset_overall.vocab_word
+        #print("Len vocab word")
+        #print(len(self.vocab_word))
+        self.vocab_role_overall = self.train_dataset_overall.vocab_role
+        self.vocab_pos_overall = self.train_dataset_overall.vocab_pos
 
         
 
@@ -219,6 +285,7 @@ class Summarization(object):
                 #    break
                 #print(len(batch))
                 data = batch
+                #print(data)
                 if 'dialogues_ids' not in data:
                     continue
                 dialogues_ids = data['dialogues_ids'].to(self.device)
@@ -261,6 +328,14 @@ class Summarization(object):
                     self.optimizer.param_groups[0]['lr'])
                 tqdm_batch_iterator.set_description(description)
                 batches_processed += 1
+            
+            if epoch >= self.hparams.start_eval_epoch_cnn:
+                print('======= Evaluation Start Epoch: ', epoch, ' ==================')
+
+                self.predictor.evaluate(test_dataloader=self.test_dataloader, epoch=epoch,
+                                        eval_path=self.previous_model_path)
+
+                print('============================================================\n\n')
         
         for epoch in range(self.hparams.num_epochs):
             print("Epoch {}".format(epoch))
@@ -328,7 +403,7 @@ class Summarization(object):
 
             # torch.cuda.empty_cache()
 
-            if epoch % 10 == 0 and epoch >= self.hparams.start_eval_epoch:
+            if epoch >= self.hparams.start_eval_epoch:
                 print('======= Evaluation Start Epoch: ', epoch, ' ==================')
 
                 self.predictor.evaluate(test_dataloader=self.test_dataloader, epoch=epoch,

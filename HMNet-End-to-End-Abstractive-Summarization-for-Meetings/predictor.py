@@ -94,6 +94,7 @@ class Predictor(object):
         with torch.no_grad():
             cand_list = []
             ref_list = []
+            batch_counter = 0
             for batch_idx, batch in enumerate(tqdm(test_dataloader)):
 
                 data = batch
@@ -112,6 +113,9 @@ class Predictor(object):
 
                     cand_list.append(generated_summaries)
                     ref_list.append(reference_summaries)
+                    batch_counter += 1
+                    if self.hparams.do_short_evaluation == True and batch_counter > 5:
+                        break
 
             results_dict = compute_rouge_scores(cand_list, ref_list)
             print('[ROUGE]: ', results_dict)

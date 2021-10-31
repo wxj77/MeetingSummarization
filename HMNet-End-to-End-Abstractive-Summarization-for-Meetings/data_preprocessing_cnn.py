@@ -13,7 +13,7 @@ overall_counter = 0
 dict_dataset = {}
 for file in os.listdir(input_path):
     counter_datasets += 1
-    if counter_datasets > 100:
+    if counter_datasets > 10000:
         break
     fields = file.split(".story")
     input_file = open(input_path + "/" + file, "r")
