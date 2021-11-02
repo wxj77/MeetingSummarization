@@ -604,7 +604,7 @@ class CNNDataset(Dataset):
         print("Len pos overall init CNN {}".format(len(vocab_pos_overall['token2id'])))
 
         #self.input_examples = torch.load(hparams.data_dir + type + '_corpus')
-        self.input_examples = torch.load('data/train_cnn_corpus')
+        self.input_examples = torch.load('data/train_cnn_corpus_similar')
         #self.input_examples = torch.load(hparams.data_dir + type + "_qmsum_data_queries"+'_corpus')
         print('[%s] %d examples is loaded' % (type, len(self.input_examples)))
 
