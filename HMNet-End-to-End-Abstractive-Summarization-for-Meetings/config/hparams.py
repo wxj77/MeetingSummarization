@@ -20,9 +20,9 @@ PARAMS = defaultdict(
     # Training Hyperparemter
     batch_size=1,
     num_epochs=30,
-    num_epochs_cnn = 5,
-    start_eval_epoch=23,
-    start_eval_epoch_cnn = 10,
+    num_epochs_cnn = 15,
+    start_eval_epoch=29,
+    start_eval_epoch_cnn = 20,
     fintune_word_embedding=True,
     # Transformer
     embedding_size_word=300,
@@ -46,7 +46,7 @@ PARAMS = defaultdict(
     # Decoding
     beam_size=12,
     blook_trigram=True,
-    model_name="qmsumqueriescnnpretrainingsimilar",
+    model_name="qmsumqueriescnnpretrainingsimilarreduced",
     max_batch_numbers_per_epoch = 16,
     do_short_evaluation=False,
     do_medium_evaluation=False,
