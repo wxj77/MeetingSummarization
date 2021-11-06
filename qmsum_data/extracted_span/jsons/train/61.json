@@ -1,4 +1,0 @@
-{
-    "query": "<s> what did the team discuss about volume variation ?",
-    "answer": "postdoc f : and , um , y you also did some something in addition which was , um , for those in which there was , uh , quiet speakers in the mix . phd c : yeah . uh , yeah . that that was one one one thing , uh , why i added more mixtures for for the speech . so i saw that there were loud loudly speaking speakers and quietly speaking speakers . professor g : mm - hmm . phd c : and so i did two mixtures , one for the loud speakers and one for the quiet speakers . grad a : and did you hand - label who was loud and who was quiet , or did you just ? phd c : i did that for for five minutes of one dialogue grad a : right . phd c : and that was enough to to train the system . phd b : w what ? phd d : yeah . phd c : and so it it adapts , uh , on while running . so ."
-}
