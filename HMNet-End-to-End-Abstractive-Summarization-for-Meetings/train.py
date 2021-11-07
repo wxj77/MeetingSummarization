@@ -148,6 +148,8 @@ class Summarization(object):
                 #    break
                 #print(len(batch))
                 data = batch
+                ##print("data")
+                #print(data)
                 if 'dialogues_ids' not in data:
                     continue
                 dialogues_ids = data['dialogues_ids'].to(self.device)
@@ -184,11 +186,13 @@ class Summarization(object):
             # # -------------------------------------------------------------------------
             self.checkpoint_manager.step(epoch)
             self.previous_model_path = os.path.join(self.checkpoint_manager.ckpt_dirpath, "checkpoint_%d.pth" % (epoch))
+            print("Previous model path")
+            print(self.previous_model_path)
             self._logger.info(self.previous_model_path)
 
             # torch.cuda.empty_cache()
 
-            if epoch % 10 == 0 and epoch >= self.hparams.start_eval_epoch:
+            if epoch >= self.hparams.start_eval_epoch:
                 print('======= Evaluation Start Epoch: ', epoch, ' ==================')
 
                 self.predictor.evaluate(test_dataloader=self.test_dataloader, epoch=epoch,

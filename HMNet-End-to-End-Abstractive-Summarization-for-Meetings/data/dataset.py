@@ -30,13 +30,19 @@ class AMIDataset(Dataset):
         self.hparams = hparams
 
         #self.input_examples = torch.load(hparams.data_dir + type + '_corpus')
-        self.input_examples = torch.load(hparams.data_dir + type + "_qmsum_data_queries"+'_corpus')
+        self.input_examples = torch.load(hparams.data_dir + type + "_qmsum_data_corpus_wei_cb")
         print('[%s] %d examples is loaded' % (type, len(self.input_examples)))
 
         self.data_list = []
         for key, value in self.input_examples.items():
+            #print("key")
+            #print(key)
             texts = value['texts']
+            #print("texts")
+            #print(texts)
             labels = value['labels']
+            #print("labels")
+            #print(labels)
             dialogues = []
             for each in texts:
                 role = each[1]
@@ -48,7 +54,9 @@ class AMIDataset(Dataset):
                 pos_sentence = pos_sentence.strip()
                 role = role.strip()
                 if role != "" and sentence != "" and pos_sentence != "":
+                    #print("Appending to dialogues")
                     dialogues.append({'role': role, 'sentence': sentence, 'pos_sentence': pos_sentence})
+            
             self.data_list.append({'labels': labels, 'dialogues': dialogues})
 
         if (vocab_word == None) and (vocab_role == None):
@@ -62,6 +70,8 @@ class AMIDataset(Dataset):
             self.vocab_pos = vocab_pos
 
     def __len__(self):
+        #print("calling len")
+        #print(len(self.data_list))
         return len(self.data_list)
 
     def __getitem__(self, index):
@@ -75,6 +85,10 @@ class AMIDataset(Dataset):
         """
         dialogues = self.data_list[index]['dialogues']
         labels = self.data_list[index]['labels']
+        #print("getitem called")
+        #if index == 0:
+        #    print(dialogues)
+        #    print(labels)
 
         dialogues_ids = [] # (num_turn, seq_len)
         pos_ids = [] # (num_turn, seq_len)
@@ -93,11 +107,12 @@ class AMIDataset(Dataset):
             #print("dialogue")
             #print(dialogue)
             if turn_idx >= self.hparams.max_length:
+                #print("turn_idx above max length")
                 break
             sentence = dialogue['sentence']
             sentence_count = len(sentence.split('.')) - 1
-            if sentence_count < 2 or len(sentence) < 4:
-                continue
+            #if sentence_count < 2 or len(sentence) < 4:
+            #    continue
             sentence = sentence.replace('. .', '.').replace(', ,', ',')
 
             tokens = self.tokenize(sentence)

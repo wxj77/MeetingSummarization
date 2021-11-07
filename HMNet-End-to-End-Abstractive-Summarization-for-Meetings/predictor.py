@@ -112,6 +112,9 @@ class Predictor(object):
 
                     cand_list.append(generated_summaries)
                     ref_list.append(reference_summaries)
+                
+                if self.hparams.perform_short_evaluation == True and batch_idx > 5:
+                    break
 
             results_dict = compute_rouge_scores(cand_list, ref_list)
             print('[ROUGE]: ', results_dict)
